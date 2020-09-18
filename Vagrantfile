@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "ubuntu/trusty64"
+  #config.vm.box = "ubuntu/trusty64"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -67,4 +67,28 @@ Vagrant.configure("2") do |config|
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
+
+  # Install Docker
+  #config.vm.provision :docker
+
+  # Install Docker Compose
+  # First, install required plugin https://github.com/leighmcculloch/vagrant-docker-compose:
+  # vagrant plugin install vagrant-docker-compose
+  #config.vm.provision :docker_compose
+
+
+  config.vm.box = "ubuntu/bionic64"
+
+  # require plugin https://github.com/leighmcculloch/vagrant-docker-compose
+  config.vagrant.plugins = "vagrant-docker-compose"
+
+  # install docker and docker-compose
+  config.vm.provision :docker
+  config.vm.provision :docker_compose
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.customize ["modifyvm", :id, "--ioapic", "on"]
+    vb.customize ["modifyvm", :id, "--memory", "2048"]
+    vb.customize ["modifyvm", :id, "--cpus", "2"]
+  end
 end
