@@ -24,6 +24,7 @@ Vagrant.configure("2") do |config|
   # accessing "localhost:8080" will access port 80 on the guest machine.
   # NOTE: This will enable public access to the opened port
   # config.vm.network "forwarded_port", guest: 80, host: 8080
+  config.vm.network :forwarded_port, guest: 8080, host: 3080
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine and only allow access
@@ -43,7 +44,8 @@ Vagrant.configure("2") do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  # config.vm.synced_folder "../data", "/vagrant_data"
+  config.vm.synced_folder "../slides/src/", "/home/vagrant/src"
+  config.vm.synced_folder "../slides/dist/", "/home/vagrant/dist"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -63,9 +65,13 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
+  config.vm.provision :shell, path: "bootstrap.sh"
   # config.vm.provision "shell", inline: <<-SHELL
-  #   apt-get update
-  #   apt-get install -y apache2
+  #   mkdir /home/vagrant/markdeck
+  #   cd /home/vagrant/markdeck
+  #   curl -LO https://raw.githubusercontent.com/arnehilmann/markdeck/master/markdeck
+  #   chmod a+x markdeck
+  #   echo 'export PATH=/home/vagrant/markdeck:$PATH' >> ~/.bashrc     
   # SHELL
 
   # Install Docker
