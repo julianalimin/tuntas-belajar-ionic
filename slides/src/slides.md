@@ -1,26 +1,24 @@
 ---
-title: markdeck scaffold
-pdf: markdeck-scaffold.pdf
-slideNumber: true
+title: Tuntas Belajar Ionic
+highlight_style: github-gist
 controls: true
+controlsLayout: edges
 ---
 
-# first slide {bg=#eee}
 
-made with [markdeck](https://arnehilmann.github.io/markdeck/){target="_blank"}
+# Tuntas Belajar Ionic {bg=#123456 .light-on-dark}
 
-```render_a2s
-#----------.
-|[markdeck]|
-'----------#
-[markdeck]: {"fill": "Teal", "fillStyle": "solid"}
-```
+Oleh:
+Julian Alimin
 
-<small>
-interesting links:
-  [your main deck](/){target="_parent"}
-• [markdown/slide side-by-side](/explain.html)
-• [utilities](//localhost:8081/){target="_blank"}
-</small>
+|
+|
 
-⚪ ⚪ ⚪
+Cari saya di link-link berikut
+
+[![](fab fa-github)](https://github.com/dmastag){target="_blank"}
+[![](fab fa-linkedin)](https://www.linkedin.com/in/julianalimin){target="_blank"}
+[![](fab fa-youtube)](https://www.youtube.com/c/JulianAlimin){target="_blank"}
+[![](fab fa-facebook)](https://www.facebook.com/julianalimin){target="_blank"}
+[![](fab fa-twitter)](https://twitter.com/julianalimin){target="_blank"}
+[![](fab fa-instagam)](https://www.instagram.com/julianalimin/?hl=en){target="_blank"}
