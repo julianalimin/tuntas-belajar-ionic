@@ -1,0 +1,30 @@
+@import "fontawesome-free-5.12.0-web/css/all.min.css";
+
+@font-face {
+    font-family: "Font Awesome 5 Brands";
+    font-style: normal;
+    font-weight: normal;
+    src: url(fontawesome-free-5.12.0-web/webfonts/fa-brands-400.woff) format("woff");
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+@font-face {
+    font-family: "Font Awesome 5 Solid";
+    font-style: normal;
+    font-weight: 900;
+    src: url(fontawesome-free-5.12.0-web/webfonts/fa-solid-900.woff) format("woff");
+}
+.fa, .fas {
+    font-family: "Font Awesome 5 Solid";
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Font Awesome 5 Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url(fontawesome-free-5.12.0-web/webfonts/fa-regular-400.woff) format("woff");
+}
+.far {
+    font-family: "Font Awesome 5 Regular";
+}

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <title>Tuntas Belajar Ionic</title>
+
+    <meta name="description" content="Tuntas Belajar Ionic" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="assets/framework/reveal.js/dist/reveal.css" />
+    <link rel="stylesheet" href="assets/framework/reveal.js/css/theme/simple.css" />
+    <link rel="shortcut icon" href="assets/css/theme/favicon.ico" />
+
+    <link rel="stylesheet" href="assets/markdeck/styles/github-gist.css" />
+
+        <link rel="stylesheet" type="text/css" href="assets/3rdparty/asciinema-player.css" />
+    
+            
+    <link rel="stylesheet" href="assets/markdeck/css/markdeck.revealjs.css" />
+    <link rel="stylesheet" href="assets/css/slides.css" />
+
+    <script>
+        window.pdf_render = window.location.search.match(/render=pdf/gi) != null;
+        if (window.pdf_render) {
+            document.write('<link rel="stylesheet" href="assets/css/render-pdf.css" type="text/css">');
+        }
+    </script>
+
+    <link href="assets/css/rerendering.css" rel="stylesheet"></link>
+
+
+</head>
+<body>
+
+
+    <div class="rerendering-message"><h1>R E R E N D E R I N G</h1></div>
+        <div class="markdeck-logo"><a href="https://github.com/arnehilmann/markdeck">powered by markdeck</a></div>
+    
+    <div class="header"></div>
+    <div class="footer"></div>
+
+    <div class="reveal markdeck">
+        <div class="slides">
+
+<section id="tuntas-belajar-ionic" class="level1 light-on-dark" data-bg="#123456" data-background="#123456">
+<h1 class="light-on-dark" data-bg="#123456" data-background="#123456">Tuntas Belajar Ionic</h1>
+<p>Oleh:
+Julian Alimin</p>
+<div class="line-block"><br />
+</div>
+<p>Cari saya di link-link berikut</p>
+<p><a href="https://github.com/dmastag" target="_blank"><i class='fab fa-github'></i></a>
+<a href="https://www.linkedin.com/in/julianalimin" target="_blank"><i class='fab fa-linkedin'></i></a>
+<a href="https://www.youtube.com/c/JulianAlimin" target="_blank"><i class='fab fa-youtube'></i></a>
+<a href="https://www.facebook.com/julianalimin" target="_blank"><i class='fab fa-facebook'></i></a>
+<a href="https://twitter.com/julianalimin" target="_blank"><i class='fab fa-twitter'></i></a>
+<a href="https://www.instagram.com/julianalimin/?hl=en" target="_blank"><i class='fab fa-instagam'></i></a></p>
+</section>
+
+        </div>
+    </div>
+
+    <script src="assets/3rdparty/jquery.js"></script>
+
+    <script type="module">
+        import Reveal from "./assets/framework/reveal.js/dist/reveal.esm.js";
+        import Markdown from "./assets/framework/reveal.js/plugin/markdown/markdown.esm.js";
+        import Notes from "./assets/framework/reveal.js/plugin/notes/notes.esm.js";
+
+        let deck = new Reveal();
+        window.Reveal = deck;
+
+        deck.initialize({
+            width: 960,
+            height: 740,
+            margin: 0.1,
+            minScale: 0.2,
+            maxScale: 2.5,
+            controls: 'true',
+            controlsTutorial: 'false',
+            controlsLayout: 'edges',
+            controlsBackArrows: 'faded',
+            progress: 'true',
+            defaultTiming: (Number(120) >= 0) ? Number(120) : 120,
+            slideNumber: 'false',
+            history: 'true',
+            keyboard: 'true',
+            overview: 'true',
+            center: 'true',
+            touch: 'true',
+            loop: '',
+            rtl: '',
+            shuffle: '',
+            fragments: 'true',
+            embedded: 'false',
+            help: 'true',
+            showNotes: '',
+            autoPlayMedia: '',
+
+            autoSlide: (window.pdf_render) ? 0 : Number(0),
+
+            autoSlideStoppable: 'true',
+            autoSlideMethod: 'Reveal.navigateNext',
+            mouseWheel: 'false',
+            hideAddressBar: 'true',
+            previewLinks: 'false',
+            transition: 'slide',
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+            viewDistance: (Number(3) >= 0) ? Number(3) : 3,
+
+            parallaxBackgroundImage: '',
+            parallaxBackgroundSize: '',
+            parallaxBackgroundHorizontal: (null != null && Number(null) >= 0) ? Number(null) : null,
+            parallaxBackgroundVertical: (null != null && Number(null) >= 0) ? Number(null) : null,
+
+            theme: '',
+
+            plugins: [ Markdown, Notes ]
+        });
+
+        function calc_offset_left() {
+            return jQuery(".slides").offset().left / deck.getScale();
+        }
+
+        function flushleft(selector) {
+            function deoffset() {
+                // console.log("flushleft");
+                var rel_offset_left = calc_offset_left();
+                jQuery(selector).each(function(i, e){
+                    jQuery(this).css({"margin-left": "-" + rel_offset_left + "px"});
+                });
+            }
+            deoffset();
+            if (window.pdf_render) {
+                setTimeout(deoffset, 50);
+            } else {
+                jQuery(window).on("resize", deoffset);
+            }
+        }
+
+        function centerleft(selector) {
+            function deoffset() {
+                // console.log("centerleft");
+                var rel_offset_left = calc_offset_left() / 2;
+                jQuery(selector).each(function(i, e){
+                    jQuery(this).css({"margin-left": "-" + rel_offset_left + "px"});
+                });
+            }
+            deoffset();
+            if (window.pdf_render) {
+                setTimeout(deoffset, 50);
+            } else {
+                jQuery(window).on("resize", deoffset);
+            }
+        }
+
+        jQuery(".flushleft").children(".flushleft").removeClass("flushleft");
+        flushleft(".slides section.flushleft");
+    </script>
+
+    <script src='assets/markdeck/highlight.js'></script>
+    <script src='assets/markdeck/highlightjs-line-numbers.min.js'></script>
+    <script>
+        window.hljs = hljs;
+        hljs.initHighlightingOnLoad();
+        hljs.initLineNumbersOnLoad();
+    </script>
+
+        <script src="assets/3rdparty/asciinema-player.js"></script>
+    
+    <script>
+        jQuery("pre.render_mermaid").each(function(i, old) {
+            var p = jQuery('<p>' + jQuery(old).children("code").text() + '</p>');
+            var attributes = jQuery(old).prop("attributes");
+            jQuery.each(attributes, function() {
+                p.attr(this.name, this.value);
+            });
+            p.addClass("mermaid");
+            old.replaceWith(p[0]);
+        });
+    </script>
+    <script src="assets/3rdparty/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true, theme:'forest'});</script>
+
+    <script>
+        // add notes class to make sure controls are always displayed on the
+        // speaker notes
+        if (window.self !== window.top) {
+            document.body.className += " notes";
+        }
+
+        document.body.className += " ";
+    </script>
+
+
+</body>
+</html>
