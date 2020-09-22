@@ -2,7 +2,8 @@
 title: Tuntas Belajar Ionic
 highlight_style: github-gist
 controls: true
-controlsLayout: edges
+controlsLayout: bottom-right
+previewLinks: false
 ---
 
 
@@ -22,3 +23,50 @@ Cari saya di link-link berikut
 [![](fab fa-facebook)](https://www.facebook.com/julianalimin){target="_blank"}
 [![](fab fa-twitter)](https://twitter.com/julianalimin){target="_blank"}
 [![](fab fa-instagam)](https://www.instagram.com/julianalimin/?hl=en){target="_blank"}
+
+
+
+
+# Daftar Isi
+
+## 
+
+* [Pengantar](#selamat-datang)
+
+* [Tentang Penulis](#tentang-penulis)
+
+## Mengenal Ionic
+
+* Apa itu Ionic
+
+* [link to other slide](#code)
+
+
+
+
+# {bg=#123456 .light-on-dark}
+
+## Selamat Datang
+Tujuan Belajar Tuntas Ionic adalah sebagai salah satu pilihan untuk belajar Ionic berbahasa Indonesia.
+
+## 
+Isi pembelajaran ini akan terus diupdate dengan harapan suatu saat benar-benar tuntas
+
+## 
+Jika ingin memberikan masukkan Materi atau bahkan ingin menyumbangkan isian maka bisa lgs saja membuka Issue atau submit Pull Request ke.
+
+[https://github.com/julianalimin/tuntas-belajar-ionic](https://github.com/julianalimin/tuntas-belajar-ionic){target="_blank"}
+
+
+
+
+# Tentang Penulis {bg=#123456 .light-on-dark}
+
+## 
+Nama Saya Julian Alimin
+
+## 
+Saat ini adalah VP of Engineering di GreatDay HR
+
+## 
+Pengalaman kerja 15 Tahun di Dunia IT mencakup Development, Implementasi & Maintenance Product
