@@ -65,8 +65,11 @@ Jika ingin memberikan masukkan Materi atau bahkan ingin menyumbangkan isian maka
 ## 
 Nama Saya Julian Alimin
 
-## 
-Saat ini adalah VP of Engineering di GreatDay HR
+![](assets/julian-profile.gif)
 
-## 
+
+## {bg=#123456;assets/julian-vp-engineering.jpg}
+Saat ini saya menjabat sebagai VP of Engineering di GreatDay HR
+
+## {bg=#123456;assets/julian-first-id-card.jpg}
 Pengalaman kerja 15 Tahun di Dunia IT mencakup Development, Implementasi & Maintenance Product
