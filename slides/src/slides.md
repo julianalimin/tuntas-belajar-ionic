@@ -37,7 +37,7 @@ Cari saya di link-link berikut
 
 ## Mengenal Ionic
 
-* Apa itu Ionic
+* [Apa itu Ionic](#apa-itu-ionic)
 
 * [link to other slide](#code)
 
@@ -76,3 +76,28 @@ Pengalaman kerja 15 Tahun di Dunia IT mencakup Development, Implementasi & Maint
 
 ## {bg=#123456;assets/julian-football.jpg}
 Hobby saya adalah bermain Bola
+
+##
+Cukup tentang saya, mari lanjut ke Materi Belajar Tuntas Ionic
+
+
+# Apa itu Ionic ?
+
+## 
+Menurut website resminya:
+
+Ionic’s open source **Framework** and developer-friendly **tools** and **services** power apps for some of the world’s best-known brands
+
+## 
+Kita ambil 3 Kata Benda yang digunakan untuk Ionic:
+
+* Framework
+* Tools
+* Services
+
+
+## 
+
+* Framework: 
+* Tools
+* Services
