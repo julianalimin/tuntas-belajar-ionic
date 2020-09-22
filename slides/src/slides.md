@@ -73,3 +73,6 @@ Saat ini saya menjabat sebagai VP of Engineering di GreatDay HR
 
 ## {bg=#123456;assets/julian-first-id-card.jpg}
 Pengalaman kerja 15 Tahun di Dunia IT mencakup Development, Implementasi & Maintenance Product
+
+## {bg=#123456;assets/julian-football.jpg}
+Hobby saya adalah bermain Bola
