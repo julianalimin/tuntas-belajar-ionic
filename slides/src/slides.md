@@ -95,6 +95,8 @@ Kita ambil 3 Kata Benda yang digunakan untuk Ionic:
 * Tools
 * Services
 
+##
+![](assets/ionic-stack.png)
 
 ## 
 
