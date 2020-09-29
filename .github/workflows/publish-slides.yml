@@ -12,7 +12,7 @@ jobs:
         - uses: actions/checkout@v2
         - name: build
           run: |
-            cd slides/src
+            cd slides
             curl -LO https://raw.githubusercontent.com/arnehilmann/markdeck/master/markdeck
             chmod a+x markdeck
             ./markdeck once
@@ -22,5 +22,5 @@ jobs:
           with:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             BRANCH: gh-pages # The branch the action should deploy to.
-            FOLDER: slides/src/deck # The folder the action should deploy.
+            FOLDER: slides/deck # The folder the action should deploy.
             CLEAN: true # Automatically remove deleted files from the deploy branch
