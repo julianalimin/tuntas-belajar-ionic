@@ -144,3 +144,21 @@ Ionic Appflow (dulunya Ionic Cloud) merupakan kumpulan Tools berbayar untuk memb
 -   Authentikasi
 -   Automated Build
 -   Hot Push
+
+<!-- section 4 -->
+
+# Project Ionic Pertamaku
+
+## 
+
+<!-- subsection 4 / 1 -->
+
+## Memulai Project
+
+``` {.shell}
+npx --package @ionic/cli ionic start blank
+
+atau
+
+npx --p @ionic/cli ionic start blank
+```
