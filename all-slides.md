@@ -37,6 +37,44 @@ Cari saya di link-link berikut
 
 <!-- section 2 -->
 
+#  {#section-1 .light-on-dark bg="#123456"}
+
+## Selamat Datang
+
+Tujuan Belajar Tuntas Ionic adalah sebagai salah satu pilihan untuk belajar Ionic berbahasa Indonesia.
+
+<!-- subsection 2 / 1 -->
+
+## Isi Pembelajaran
+
+-   Penjelasan Ionic
+-   Automatisasi Testing dan Code Coverage
+-   Automatisasi Deployment
+
+<!-- subsection 2 / 2 -->
+
+## Target Audience
+
+-   Developer/Engineer
+-   Quality Assurance
+-   Devops
+
+<!-- subsection 2 / 3 -->
+
+## 
+
+Isi pembelajaran ini akan terus diupdate dengan harapan suatu saat benar-benar tuntas
+
+<!-- subsection 2 / 4 -->
+
+## 
+
+Jika ingin memberikan masukkan Materi atau bahkan ingin menyumbangkan isian maka bisa lgs saja membuka Issue atau submit Pull Request ke.
+
+<https://github.com/julianalimin/tuntas-belajar-ionic>
+
+<!-- section 3 -->
+
 # Tentang Penulis {#tentang-penulis .light-on-dark bg="#123456"}
 
 ## 
@@ -45,31 +83,31 @@ Hi, nama Saya Julian Alimin
 
 ![](assets/julian-profile.gif)
 
-<!-- subsection 2 / 1 -->
+<!-- subsection 3 / 1 -->
 
-##  {#section-2 .light-on-dark bg="#123456;assets/julian-vp-engineering.jpg"}
+##  {#section-5 .light-on-dark bg="#123456;assets/julian-vp-engineering.jpg"}
 
 Saat ini saya menjabat sebagai VP of Engineering di GreatDay HR dimana kami membuat aplikasi HRIS Mobile First berbasis Ionic dengan jumlah pengguna harian lebih dari 200 ribu
 
-<!-- subsection 2 / 2 -->
+<!-- subsection 3 / 2 -->
 
-##  {#section-3 bg="#123456;assets/julian-first-id-card.jpg"}
+##  {#section-6 bg="#123456;assets/julian-first-id-card.jpg"}
 
 Saya memiliki 15 Tahun pengalaman kerja di Dunia IT mencakup Development, Implementasi & Maintenance Product ( dan kadang juga bantu Sales Support 😎 )
 
-<!-- subsection 2 / 3 -->
+<!-- subsection 3 / 3 -->
 
-##  {#section-4 bg="#123456;assets/julian-football.jpg"}
+##  {#section-7 bg="#123456;assets/julian-football.jpg"}
 
 Hobby saya diantaranya adalah bermain Bola serta ngoprek-ngoprek technology terbaru ( jika ada budgetnya 😃 )
 
-<!-- subsection 2 / 4 -->
+<!-- subsection 3 / 4 -->
 
-##  {#section-5 bg="#123456;assets/julian-family.jpg"}
+##  {#section-8 bg="#123456;assets/julian-family.jpg"}
 
 Dan di waktu senggang saya senang menghabiskan waktu dengan Keluarga
 
-<!-- subsection 2 / 5 -->
+<!-- subsection 3 / 5 -->
 
 ## 
 
@@ -77,7 +115,7 @@ Cukup tentang saya, mari lanjut ke Materi
 
 > Belajar Tuntas Ionic
 
-<!-- section 3 -->
+<!-- section 4 -->
 
 # Apa itu Ionic ?
 
@@ -87,7 +125,7 @@ Menurut website resminya:
 
 Ionic's open source **Framework** and developer-friendly **tools** and **services** power apps for some of the world's best-known brands
 
-<!-- subsection 3 / 1 -->
+<!-- subsection 4 / 1 -->
 
 ## 
 
@@ -97,13 +135,13 @@ Kita ambil 3 Kata Benda yang digunakan oleh Ionic:
 -   Tools
 -   Services
 
-<!-- subsection 3 / 2 -->
+<!-- subsection 4 / 2 -->
 
 ## 
 
 ![](assets/ionic-stack.png)
 
-<!-- subsection 3 / 3 -->
+<!-- subsection 4 / 3 -->
 
 ## 
 
@@ -111,13 +149,13 @@ Kita ambil 3 Kata Benda yang digunakan oleh Ionic:
 -   Tools: Penunjang penggunaan seperti Ionic CLI, Stencil, Capacitor, Ionic Native
 -   Services: Online Service (Ionic Appflow/Cloud)
 
-<!-- subsection 3 / 4 -->
+<!-- subsection 4 / 4 -->
 
 ## Framework Ionic
 
 Bersifat Framework Agnostic sehingga bisa digunakan dengan Framework apa saja (Angular, React Vue) atau dengan Vanilla Javascript.
 
-<!-- subsection 3 / 5 -->
+<!-- subsection 4 / 5 -->
 
 ## Konsep Framework
 
@@ -126,7 +164,7 @@ Bersifat Framework Agnostic sehingga bisa digunakan dengan Framework apa saja (A
 -   @ionic/react
 -   @ionic/vue
 
-<!-- subsection 3 / 6 -->
+<!-- subsection 4 / 6 -->
 
 ## Tools
 
@@ -135,7 +173,7 @@ Bersifat Framework Agnostic sehingga bisa digunakan dengan Framework apa saja (A
 -   Capacitor: Evolusi dari Cordova
 -   Ionic Native: Plugin-plugin Cordova/Capacitor untuk akses Fitur Native
 
-<!-- subsection 3 / 7 -->
+<!-- subsection 4 / 7 -->
 
 ## Services
 
@@ -145,13 +183,13 @@ Ionic Appflow (dulunya Ionic Cloud) merupakan kumpulan Tools berbayar untuk memb
 -   Automated Build
 -   Hot Push
 
-<!-- section 4 -->
+<!-- section 5 -->
 
 # Project Ionic Pertamaku
 
 ## 
 
-<!-- subsection 4 / 1 -->
+<!-- subsection 5 / 1 -->
 
 ## Memulai Project
 
