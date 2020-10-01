@@ -39,7 +39,9 @@ Cari saya di link-link berikut
 
 * [Apa itu Ionic](#apa-itu-ionic)
 
-* [link to other slide](#code)
+* [Project Ionic Pertamaku](#project-ionic-pertamaku)
+
+* [Project Ionic Pertamaku](#project-ionic-pertamaku)
 
 
 
@@ -49,6 +51,16 @@ Cari saya di link-link berikut
 ## Selamat Datang
 Tujuan Belajar Tuntas Ionic adalah sebagai salah satu pilihan untuk belajar Ionic berbahasa Indonesia.
 
+## Isi Pembelajaran
+* Penjelasan Ionic
+* Automatisasi Testing dan Code Coverage 
+* Automatisasi Deployment
+
+## Target Audience
+* Developer/Engineer
+* Quality Assurance
+* Devops
+
 ## 
 Isi pembelajaran ini akan terus diupdate dengan harapan suatu saat benar-benar tuntas
 
@@ -56,50 +68,3 @@ Isi pembelajaran ini akan terus diupdate dengan harapan suatu saat benar-benar t
 Jika ingin memberikan masukkan Materi atau bahkan ingin menyumbangkan isian maka bisa lgs saja membuka Issue atau submit Pull Request ke.
 
 [https://github.com/julianalimin/tuntas-belajar-ionic](https://github.com/julianalimin/tuntas-belajar-ionic){target="_blank"}
-
-
-
-
-# Tentang Penulis {bg=#123456 .light-on-dark}
-
-## 
-Nama Saya Julian Alimin
-
-![](assets/julian-profile.gif)
-
-
-## {bg=#123456;assets/julian-vp-engineering.jpg}
-Saat ini saya menjabat sebagai VP of Engineering di GreatDay HR
-
-## {bg=#123456;assets/julian-first-id-card.jpg}
-Pengalaman kerja 15 Tahun di Dunia IT mencakup Development, Implementasi & Maintenance Product
-
-## {bg=#123456;assets/julian-football.jpg}
-Hobby saya adalah bermain Bola
-
-##
-Cukup tentang saya, mari lanjut ke Materi Belajar Tuntas Ionic
-
-
-# Apa itu Ionic ?
-
-## 
-Menurut website resminya:
-
-Ionic’s open source **Framework** and developer-friendly **tools** and **services** power apps for some of the world’s best-known brands
-
-## 
-Kita ambil 3 Kata Benda yang digunakan oleh Ionic:
-
-* Framework
-* Tools
-* Services
-
-##
-![](assets/ionic-stack.png)
-
-## 
-
-* Framework: Library dan UI Komponen untuk membuat Aplikasi
-* Tools: Penunjang penggunaan seperti Ionic CLI, Stencil, Capacitor, Ionic Native
-* Services: Online Service (Ionic Appflow/Cloud)
