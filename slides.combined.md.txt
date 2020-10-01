@@ -6,7 +6,6 @@ controlsLayout: bottom-right
 previewLinks: false
 ---
 
-
 # Tuntas Belajar Ionic {bg=#123456 .light-on-dark}
 
 Oleh:
@@ -24,9 +23,6 @@ Cari saya di link-link berikut
 [![](fab fa-twitter)](https://twitter.com/julianalimin){target="_blank"}
 [![](fab fa-instagam)](https://www.instagram.com/julianalimin/?hl=en){target="_blank"}
 
-
-
-
 # Daftar Isi
 
 ## 
@@ -39,47 +35,33 @@ Cari saya di link-link berikut
 
 * [Apa itu Ionic](#apa-itu-ionic)
 
-* [link to other slide](#code)
-
-
-
-
-# {bg=#123456 .light-on-dark}
-
-## Selamat Datang
-Tujuan Belajar Tuntas Ionic adalah sebagai salah satu pilihan untuk belajar Ionic berbahasa Indonesia.
-
-## 
-Isi pembelajaran ini akan terus diupdate dengan harapan suatu saat benar-benar tuntas
-
-## 
-Jika ingin memberikan masukkan Materi atau bahkan ingin menyumbangkan isian maka bisa lgs saja membuka Issue atau submit Pull Request ke.
-
-[https://github.com/julianalimin/tuntas-belajar-ionic](https://github.com/julianalimin/tuntas-belajar-ionic){target="_blank"}
-
-
+* [Project Ionic Pertamaku](#project-ionic-pertamaku)
 
 
 # Tentang Penulis {bg=#123456 .light-on-dark}
 
 ## 
-Nama Saya Julian Alimin
+Hi, nama Saya Julian Alimin
 
 ![](assets/julian-profile.gif)
 
 
-## {bg=#123456;assets/julian-vp-engineering.jpg}
-Saat ini saya menjabat sebagai VP of Engineering di GreatDay HR
+## {bg=#123456;assets/julian-vp-engineering.jpg .light-on-dark}
+Saat ini saya menjabat sebagai VP of Engineering di GreatDay HR dimana kami membuat aplikasi HRIS Mobile First berbasis Ionic dengan jumlah pengguna harian lebih dari 200 ribu
 
 ## {bg=#123456;assets/julian-first-id-card.jpg}
-Pengalaman kerja 15 Tahun di Dunia IT mencakup Development, Implementasi & Maintenance Product
+Saya memiliki 15 Tahun pengalaman kerja di Dunia IT mencakup Development, Implementasi & Maintenance Product ( dan kadang juga bantu Sales Support 😎 )
 
 ## {bg=#123456;assets/julian-football.jpg}
-Hobby saya adalah bermain Bola
+Hobby saya diantaranya adalah bermain Bola serta ngoprek-ngoprek technology terbaru ( jika ada budgetnya 😃 )
+
+## {bg=#123456;assets/julian-family.jpg}
+Dan di waktu senggang saya senang menghabiskan waktu dengan Keluarga 
 
 ##
-Cukup tentang saya, mari lanjut ke Materi Belajar Tuntas Ionic
+Cukup tentang saya, mari lanjut ke Materi 
 
+> Belajar Tuntas Ionic
 
 # Apa itu Ionic ?
 
@@ -103,3 +85,26 @@ Kita ambil 3 Kata Benda yang digunakan oleh Ionic:
 * Framework: Library dan UI Komponen untuk membuat Aplikasi
 * Tools: Penunjang penggunaan seperti Ionic CLI, Stencil, Capacitor, Ionic Native
 * Services: Online Service (Ionic Appflow/Cloud)
+
+## Framework Ionic
+Bersifat Framework Agnostic sehingga bisa digunakan dengan Framework apa saja (Angular, React Vue) atau dengan Vanilla Javascript.
+
+## Konsep Framework
+* @ionic/core --> UI Components
+* @ionic/angular
+* @ionic/react
+* @ionic/vue
+
+## Tools
+* Ionic CLI: Untuk installasi dan jalankan Toolchain
+* Stencil: Untuk membuat web component native
+* Capacitor: Evolusi dari Cordova
+* Ionic Native: Plugin-plugin Cordova/Capacitor untuk akses Fitur Native
+
+## Services
+Ionic Appflow (dulunya Ionic Cloud) merupakan kumpulan Tools berbayar untuk membantu development Ionic. Beberapa Fiturnya:
+
+* Authentikasi
+* Automated Build
+* Hot Push
+
