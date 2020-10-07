@@ -1,5 +1,11 @@
 # {bg=#123456 .light-on-dark}
 
+## Pengenalan
+<iframe src="https://www.youtube.com/embed/ZcY56CJmPpU"></iframe>
+
+Atau navigasi kebawah untuk lihat versi Text
+
+
 ## Selamat Datang
 Tujuan Belajar Tuntas Ionic adalah sebagai salah satu pilihan untuk belajar Ionic berbahasa Indonesia.
 
