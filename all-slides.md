@@ -39,11 +39,23 @@ Cari saya di link-link berikut
 
 #  {#section-1 .light-on-dark bg="#123456"}
 
+## Pengenalan
+
+```{=html}
+<iframe src="https://www.youtube.com/embed/ZcY56CJmPpU">
+```
+```{=html}
+</iframe>
+```
+Atau navigasi kebawah untuk lihat versi Text
+
+<!-- subsection 2 / 1 -->
+
 ## Selamat Datang
 
 Tujuan Belajar Tuntas Ionic adalah sebagai salah satu pilihan untuk belajar Ionic berbahasa Indonesia.
 
-<!-- subsection 2 / 1 -->
+<!-- subsection 2 / 2 -->
 
 ## Isi Pembelajaran
 
@@ -51,7 +63,7 @@ Tujuan Belajar Tuntas Ionic adalah sebagai salah satu pilihan untuk belajar Ioni
 -   Automatisasi Testing dan Code Coverage
 -   Automatisasi Deployment
 
-<!-- subsection 2 / 2 -->
+<!-- subsection 2 / 3 -->
 
 ## Target Audience
 
@@ -59,13 +71,13 @@ Tujuan Belajar Tuntas Ionic adalah sebagai salah satu pilihan untuk belajar Ioni
 -   Quality Assurance
 -   Devops
 
-<!-- subsection 2 / 3 -->
+<!-- subsection 2 / 4 -->
 
 ## 
 
 Isi pembelajaran ini akan terus diupdate dengan harapan suatu saat benar-benar tuntas
 
-<!-- subsection 2 / 4 -->
+<!-- subsection 2 / 5 -->
 
 ## 
 
