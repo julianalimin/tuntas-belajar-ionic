@@ -27,7 +27,7 @@ Cari saya di link-link berikut
 
 ## 
 
-* [Pengantar](#selamat-datang)
+* [Pengantar](#pengantar)
 
 * [Tentang Penulis](#tentang-penulis)
 
@@ -40,7 +40,7 @@ Cari saya di link-link berikut
 
 # {bg=#123456 .light-on-dark}
 
-## Pengenalan
+## Pengantar
 <iframe src="https://www.youtube.com/embed/ZcY56CJmPpU"></iframe>
 
 Atau navigasi kebawah untuk lihat versi Text
@@ -93,6 +93,11 @@ Cukup tentang saya, mari lanjut ke Materi
 > Belajar Tuntas Ionic
 
 # Apa itu Ionic ?
+
+##
+<iframe src="https://www.youtube.com/embed/YGxaPyPzd44"></iframe>
+
+Atau navigasi kebawah untuk lihat versi Text
 
 ## 
 Menurut website resminya:

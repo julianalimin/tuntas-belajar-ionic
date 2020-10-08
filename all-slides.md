@@ -23,7 +23,7 @@ Cari saya di link-link berikut
 
 ## 
 
--   [Pengantar](#selamat-datang)
+-   [Pengantar](#pengantar)
 
 -   [Tentang Penulis](#tentang-penulis)
 
@@ -39,7 +39,7 @@ Cari saya di link-link berikut
 
 #  {#section-1 .light-on-dark bg="#123456"}
 
-## Pengenalan
+## Pengantar
 
 ```{=html}
 <iframe src="https://www.youtube.com/embed/ZcY56CJmPpU">
@@ -133,11 +133,23 @@ Cukup tentang saya, mari lanjut ke Materi
 
 ## 
 
+```{=html}
+<iframe src="https://www.youtube.com/embed/YGxaPyPzd44">
+```
+```{=html}
+</iframe>
+```
+Atau navigasi kebawah untuk lihat versi Text
+
+<!-- subsection 4 / 1 -->
+
+## 
+
 Menurut website resminya:
 
 Ionic's open source **Framework** and developer-friendly **tools** and **services** power apps for some of the world's best-known brands
 
-<!-- subsection 4 / 1 -->
+<!-- subsection 4 / 2 -->
 
 ## 
 
@@ -147,13 +159,13 @@ Kita ambil 3 Kata Benda yang digunakan oleh Ionic:
 -   Tools
 -   Services
 
-<!-- subsection 4 / 2 -->
+<!-- subsection 4 / 3 -->
 
 ## 
 
 ![](assets/ionic-stack.png)
 
-<!-- subsection 4 / 3 -->
+<!-- subsection 4 / 4 -->
 
 ## 
 
@@ -161,13 +173,13 @@ Kita ambil 3 Kata Benda yang digunakan oleh Ionic:
 -   Tools: Penunjang penggunaan seperti Ionic CLI, Stencil, Capacitor, Ionic Native
 -   Services: Online Service (Ionic Appflow/Cloud)
 
-<!-- subsection 4 / 4 -->
+<!-- subsection 4 / 5 -->
 
 ## Framework Ionic
 
 Bersifat Framework Agnostic sehingga bisa digunakan dengan Framework apa saja (Angular, React Vue) atau dengan Vanilla Javascript.
 
-<!-- subsection 4 / 5 -->
+<!-- subsection 4 / 6 -->
 
 ## Konsep Framework
 
@@ -176,7 +188,7 @@ Bersifat Framework Agnostic sehingga bisa digunakan dengan Framework apa saja (A
 -   @ionic/react
 -   @ionic/vue
 
-<!-- subsection 4 / 6 -->
+<!-- subsection 4 / 7 -->
 
 ## Tools
 
@@ -185,7 +197,7 @@ Bersifat Framework Agnostic sehingga bisa digunakan dengan Framework apa saja (A
 -   Capacitor: Evolusi dari Cordova
 -   Ionic Native: Plugin-plugin Cordova/Capacitor untuk akses Fitur Native
 
-<!-- subsection 4 / 7 -->
+<!-- subsection 4 / 8 -->
 
 ## Services
 
