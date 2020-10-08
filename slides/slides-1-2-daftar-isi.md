@@ -2,7 +2,7 @@
 
 ## 
 
-* [Pengantar](#selamat-datang)
+* [Pengantar](#pengantar)
 
 * [Tentang Penulis](#tentang-penulis)
 
