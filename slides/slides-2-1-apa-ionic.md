@@ -1,5 +1,10 @@
 # Apa itu Ionic ?
 
+##
+<iframe src="https://www.youtube.com/embed/YGxaPyPzd44"></iframe>
+
+Atau navigasi kebawah untuk lihat versi Text
+
 ## 
 Menurut website resminya:
 
