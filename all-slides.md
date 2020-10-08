@@ -217,7 +217,7 @@ Ionic Appflow (dulunya Ionic Cloud) merupakan kumpulan Tools berbayar untuk memb
 
 ## Persiapan
 
-Hal minimal yang dibutuhkan adalah [Node JS](https://nodejs.org/) dan sebuah IDE (Saya merekomendasikan [VS Code](https://code.visualstudio.com/))
+Hal minimal yang dibutuhkan adalah [Node JS](https://nodejs.org/){target="_blank"} dan sebuah IDE (Saya merekomendasikan [VS Code](https://code.visualstudio.com/){target="_blank"})
 
 > Pro Trip: Gunakan NVM
 
@@ -228,12 +228,12 @@ Hal minimal yang dibutuhkan adalah [Node JS](https://nodejs.org/) dan sebuah IDE
 ``` {.shell}
 ## Cara yang direkommendasikan Ionic
 npm install -g @ionic/cli
-ionic start blank
+ionic start myApp tabs
 
 ## Cara yang saya rekomendasikan
-npx --package @ionic/cli ionic start sidemenu
+npx --package @ionic/cli ionic start myApp tabs
 atau
-npx -p @ionic/cli ionic start sidemenu
+npx -p @ionic/cli ionic start myApp tabs
 ```
 
 <!-- subsection 5 / 3 -->
