@@ -4,7 +4,7 @@
 
 ## Persiapan
 
-Hal minimal yang dibutuhkan adalah [Node JS](https://nodejs.org/) dan sebuah IDE (Saya merekomendasikan [VS Code](https://code.visualstudio.com/))
+Hal minimal yang dibutuhkan adalah [Node JS](https://nodejs.org/){target="_blank"} dan sebuah IDE (Saya merekomendasikan [VS Code](https://code.visualstudio.com/){target="_blank"})
 
 > Pro Trip: Gunakan NVM
 
