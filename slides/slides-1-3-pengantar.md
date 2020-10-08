@@ -1,6 +1,6 @@
 # {bg=#123456 .light-on-dark}
 
-## Pengenalan
+## Pengantar
 <iframe src="https://www.youtube.com/embed/ZcY56CJmPpU"></iframe>
 
 Atau navigasi kebawah untuk lihat versi Text
