@@ -30,9 +30,11 @@ npx -p @ionic/cli ionic start myApp tabs
 ```shell
 npx -p @ionic/cli ionic serve
 ```
+## Struktur Project
+![](assets/project-ionic-pertama-struktur.png)
 
 ## Hasil yang ditampilkan (Browser)
+![](assets/project-ionic-pertama-browser.png)
 
 ## Hasil yang ditampilkan (Mobile)
-
-## Struktur Project
+![](assets/project-ionic-pertama-mobile.png)
