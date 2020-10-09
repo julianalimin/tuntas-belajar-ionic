@@ -254,12 +254,18 @@ npx -p @ionic/cli ionic serve
 
 <!-- subsection 5 / 4 -->
 
-## Hasil yang ditampilkan (Browser)
+## Struktur Project
+
+![](assets/project-ionic-pertama-struktur.png)
 
 <!-- subsection 5 / 5 -->
 
-## Hasil yang ditampilkan (Mobile)
+## Hasil yang ditampilkan (Browser)
+
+![](assets/project-ionic-pertama-browser.png)
 
 <!-- subsection 5 / 6 -->
 
-## Struktur Project
+## Hasil yang ditampilkan (Mobile)
+
+![](assets/project-ionic-pertama-mobile.png)
