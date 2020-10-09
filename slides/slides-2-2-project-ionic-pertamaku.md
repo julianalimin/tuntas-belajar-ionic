@@ -1,6 +1,9 @@
 # Project Ionic Pertamaku
 
 ##
+<iframe src="https://www.youtube.com/embed/v_cJ1iJ_LvY"></iframe>
+
+Atau navigasi kebawah untuk lihat versi Text
 
 ## Persiapan
 
