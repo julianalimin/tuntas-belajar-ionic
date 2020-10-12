@@ -35,6 +35,22 @@ Cari saya di link-link berikut
 
 -   [Project Ionic Pertamaku](#project-ionic-pertamaku)
 
+<!-- subsection 1 / 2 -->
+
+## Project: Tuntas Belajar App
+
+-   [Perencanaan](#section-16)
+
+-   [List Tutorial ala Skillshare]()
+
+-   [Youtube Player]()
+
+-   [List Pembelajaran]()
+
+-   [About Page]()
+
+-   [Contact Me]()
+
 <!-- section 2 -->
 
 #  {#section-1 .light-on-dark bg="#123456"}
@@ -269,3 +285,31 @@ npx -p @ionic/cli ionic serve
 ## Hasil yang ditampilkan (Mobile)
 
 ![](assets/project-ionic-pertama-mobile.png)
+
+<!-- section 6 -->
+
+# Perencanaan
+
+## 
+
+*Failing to Plan is Planning to Fail*
+
+*Gagal berencana adalah berencana untuk Gagal*
+
+<!-- subsection 6 / 1 -->
+
+## Sebelum Coding
+
+Hal terpenting sebelum mulai coding adalah perencanaan.
+
+<!-- subsection 6 / 2 -->
+
+## Design
+
+Banyak Tools yang bisa digunakan untuk Design. Figma dan XD adalah dua Tools yang sangat digemari sekarang. Setidaknya buatlah Mood Board agar tahu arah Aplikasinya akan kemana.
+
+<!-- subsection 6 / 3 -->
+
+## Project Management
+
+Pekerjaan perlu di pecah menjadi beberapa bagian. Biasanya saya menggunakan Trello tetapi Github dan Gitlab menawarkan Project Management sederhana yang terintegrasi dengan website mereka sehingga tidak memerlukan sistem lain.
