@@ -20,45 +20,45 @@ Pages
 
 * [List Tutorial ala Skillshare]()
 
-* [Youtube Player]()
+* Youtube Player (Coming Soon)
 
-* [List Pembelajaran]()
+* List Pembelajaran (Coming Soon)
 
-* [About Page]()
+* About Page (Coming Soon)
 
-* [Contact Me]()
+* Contact Me (Coming Soon)
 
 ## Project: Tuntas Belajar App
 
 Advanced
 
-* [Login]()
+* Login (Coming Soon)
 
-* [Admin untuk baca Contact]()
+* Admin untuk baca Contact (Coming Soon)
 
-* [Push Notification]()
+* Push Notification (Coming Soon)
 
 
 ## Upload Aplikasi untuk Publik
 
-* [Upload ke Google Play Store]()
+* Upload ke Google Play Store (Coming Soon)
 
-* [Otomatisasi Upload ke Google Play Store]()
+* Otomatisasi Upload ke Google Play Store (Coming Soon)
 
-* [Upload ke Apple App Store]()
+* Upload ke Apple App Store (Coming Soon)
 
-* [Otomatisasi Upload ke Apple App Store]()
+* Otomatisasi Upload ke Apple App Store (Coming Soon)
 
-* [Upload ke Huawei App Gallery]()
+* Upload ke Huawei App Gallery (Coming Soon)
 
 ## Qualitas Aplikasi dan Coding
 
-* [ngLint]()
+* ngLint (Coming Soon)
 
-* [Karma]()
+* Karma (Coming Soon)
 
-* [Protractor]()
+* Protractor (Coming Soon)
 
-* [Sonarqube]()
+* Sonarqube (Coming Soon)
 
-* [Codecov]()
+* Codecov (Coming Soon)
