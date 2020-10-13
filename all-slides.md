@@ -39,6 +39,8 @@ Cari saya di link-link berikut
 
 ## Project: Tuntas Belajar App
 
+Pages
+
 -   [Perencanaan](#section-16)
 
 -   [List Tutorial ala Skillshare]()
@@ -55,9 +57,41 @@ Cari saya di link-link berikut
 
 ## Project: Tuntas Belajar App
 
+Advanced
+
+-   [Login]()
+
 -   [Admin untuk baca Contact]()
 
 -   [Push Notification]()
+
+<!-- subsection 1 / 4 -->
+
+## Upload Aplikasi untuk Publik
+
+-   [Upload ke Google Play Store]()
+
+-   [Otomatisasi Upload ke Google Play Store]()
+
+-   [Upload ke Apple App Store]()
+
+-   [Otomatisasi Upload ke Apple App Store]()
+
+-   [Upload ke Huawei App Gallery]()
+
+<!-- subsection 1 / 5 -->
+
+## Qualitas Aplikasi dan Coding
+
+-   [ngLint]()
+
+-   [Karma]()
+
+-   [Protractor]()
+
+-   [Sonarqube]()
+
+-   [Codecov]()
 
 <!-- section 2 -->
 
