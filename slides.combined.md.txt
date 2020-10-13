@@ -51,6 +51,12 @@ Cari saya di link-link berikut
 
 * [Contact Me]()
 
+## Project: Tuntas Belajar App
+
+* [Admin untuk baca Contact]()
+
+* [Push Notification]()
+
 # {bg=#123456 .light-on-dark}
 
 ## Pengantar
