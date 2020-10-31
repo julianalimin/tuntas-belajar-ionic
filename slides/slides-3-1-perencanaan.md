@@ -1,6 +1,11 @@
 # Perencanaan
 
 ##
+<iframe src="https://www.youtube.com/embed/GapFyIcAH4Q"></iframe>
+
+Atau navigasi kebawah untuk lihat versi Text
+
+##
 
 _Failing to Plan is Planning to Fail_
 
