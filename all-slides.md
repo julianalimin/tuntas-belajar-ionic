@@ -43,7 +43,13 @@ Pages
 
 -   [Perencanaan](#section-16)
 
--   [List Tutorial ala Skillshare]()
+-   [Kupas Struktur Aplikasi Ionic Angular](#kupas-struktur-aplikasi-ionic-angular)
+
+-   [Mengenal Komponen Ionic](#mengenal-komponen-ionic)
+
+-   [Mengenal Grid dan tampilan Responsive](#mengenal-grid-dan-tampilan-responsive)
+
+-   List Tutorial ala Skillshare (Coming Soon)
 
 -   Youtube Player (Coming Soon)
 
@@ -341,24 +347,78 @@ npx ionic serve
 
 ## 
 
+```{=html}
+<iframe src="https://www.youtube.com/embed/GapFyIcAH4Q">
+```
+```{=html}
+</iframe>
+```
+Atau navigasi kebawah untuk lihat versi Text
+
+<!-- subsection 6 / 1 -->
+
+## 
+
 *Failing to Plan is Planning to Fail*
 
 *Gagal berencana adalah berencana untuk Gagal*
 
-<!-- subsection 6 / 1 -->
+<!-- subsection 6 / 2 -->
 
 ## Sebelum Coding
 
 Hal terpenting sebelum mulai coding adalah perencanaan.
 
-<!-- subsection 6 / 2 -->
+<!-- subsection 6 / 3 -->
 
 ## Design
 
 Banyak Tools yang bisa digunakan untuk Design. Figma dan XD adalah dua Tools yang sangat digemari sekarang. Setidaknya buatlah Mood Board agar tahu arah Aplikasinya akan kemana.
 
-<!-- subsection 6 / 3 -->
+<!-- subsection 6 / 4 -->
 
 ## Project Management
 
 Pekerjaan perlu di pecah menjadi beberapa bagian. Biasanya saya menggunakan Trello tetapi Github dan Gitlab menawarkan Project Management sederhana yang terintegrasi dengan website mereka sehingga tidak memerlukan sistem lain.
+
+<!-- section 7 -->
+
+# Kupas Struktur Aplikasi Ionic Angular
+
+## 
+
+```{=html}
+<iframe src="https://www.youtube.com/embed/kKkBWKCcYiE">
+```
+```{=html}
+</iframe>
+```
+Atau navigasi kebawah untuk lihat versi Text
+
+<!-- section 8 -->
+
+# Mengenal Component Ionic
+
+## 
+
+```{=html}
+<iframe src="https://www.youtube.com/embed/51Fybo0F3oQ">
+```
+```{=html}
+</iframe>
+```
+Atau navigasi kebawah untuk lihat versi Text
+
+<!-- section 9 -->
+
+# Mengenal Grid dan tampilan Responsive
+
+## 
+
+```{=html}
+<iframe src="https://www.youtube.com/embed/gmkjGkoNBKM">
+```
+```{=html}
+</iframe>
+```
+Atau navigasi kebawah untuk lihat versi Text
