@@ -18,7 +18,13 @@ Pages
 
 * [Perencanaan](#section-16)
 
-* [List Tutorial ala Skillshare]()
+* [Kupas Struktur Aplikasi Ionic Angular](#kupas-struktur-aplikasi-ionic-angular)
+
+* [Mengenal Komponen Ionic](#mengenal-komponen-ionic)
+
+* [Mengenal Grid dan tampilan Responsive](#mengenal-grid-dan-tampilan-responsive)
+
+* List Tutorial ala Skillshare (Coming Soon)
 
 * Youtube Player (Coming Soon)
 
