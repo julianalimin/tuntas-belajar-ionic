@@ -7,7 +7,7 @@ Atau navigasi kebawah untuk lihat versi Text
 
 
 ## Selamat Datang
-Tujuan Belajar Tuntas Ionic adalah sebagai salah satu pilihan untuk belajar Ionic berbahasa Indonesia.
+Tujuan Tuntas Belajar Ionic adalah sebagai salah satu pilihan untuk belajar Ionic berbahasa Indonesia.
 
 ## Isi Pembelajaran
 * Penjelasan Ionic

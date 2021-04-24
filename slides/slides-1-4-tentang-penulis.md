@@ -7,7 +7,7 @@ Hi, nama Saya Julian Alimin
 
 
 ## {bg=#123456;assets/julian-vp-engineering.jpg .light-on-dark}
-Saat ini saya menjabat sebagai VP of Engineering di GreatDay HR dimana kami membuat aplikasi HRIS Mobile First berbasis Ionic dengan jumlah pengguna harian lebih dari 200 ribu
+Saat ini saya menjabat sebagai VP of Engineering di GreatDay HR dimana kami membuat aplikasi HRIS Mobile First menggunakan Ionic dengan jumlah pengguna harian lebih dari 300 ribu
 
 ## {bg=#123456;assets/julian-first-id-card.jpg}
 Saya memiliki 15 Tahun pengalaman kerja di Dunia IT mencakup Development, Implementasi & Maintenance Product ( dan kadang juga bantu Sales Support 😎 )
@@ -21,4 +21,4 @@ Dan di waktu senggang saya senang menghabiskan waktu dengan Keluarga
 ##
 Cukup tentang saya, mari lanjut ke Materi 
 
-> Belajar Tuntas Ionic
+> Tuntas Belajar Ionic
