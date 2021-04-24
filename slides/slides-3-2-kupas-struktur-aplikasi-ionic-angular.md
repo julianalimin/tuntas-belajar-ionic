@@ -96,7 +96,6 @@ File-file seperti gambar, fonts, json, file untuk bahasa  dan dokument diletakka
 
 File main.ts akan memanggil file ini untuk memulai menginisasi module-module yang akan digunakan. Lalu apakah entry component (komponen pertama yang akan dipanggil) juga di konfigurasi disini.
 
-
 ## src/app/app.component.ts
 
 Ini umumnya adalah Komponen pertama yang dipanggil. Sehingga biasanya script-script inisiasi Aplikasi ada disini.
@@ -112,28 +111,3 @@ Setiap komponent jika memerlukan Styling maka dapat ditambahkan inlince styling 
 ## Routing Module
 
 Jika Aplikasi kita memiliki banyak page maka setiap Page perlu diarahkan ke URL pada Browser. Ini dilakukan di Routing Module. Setiap Module dapat memiliki Routing Module jadi setiap Module dapat bekerja secara autonom.
-
-
-
-
-
-```{.render_plantuml args="-Sbackgroundcolor=transparent -SdefaultFontSize=24 -SdefaultFontName=Raleway"}
-@startsalt
-{
-{T
- + World
- ++ America
- +++ Canada
- +++ USA
- ++++ New York
- ++++ Boston
- +++ Mexico
- ++ Europe
- +++ Italy
- +++ Germany
- ++++ Berlin
- ++ Africa
-}
-}
-@endsalt
-```
