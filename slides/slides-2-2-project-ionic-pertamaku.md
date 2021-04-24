@@ -36,6 +36,9 @@ npm install -E -D @ionic/cli
 
 ## lalu jika ingin menjalankan cukup
 npx ionic serve
+
+## atau gunakan script npm
+npm run start
 ```
 ## Struktur Project
 ![](assets/project-ionic-pertama-struktur.png)
