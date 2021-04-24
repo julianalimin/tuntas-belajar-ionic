@@ -317,7 +317,7 @@ npx -p @ionic/cli ionic serve
 
 ## atau install @ionic/cli sebagai dev dependency
 ## agar npx tidak selalu menginstall
-npm -E -D @ionic/cli
+npm install -E -D @ionic/cli
 
 ## lalu jika ingin menjalankan cukup
 npx ionic serve
@@ -397,6 +397,51 @@ Atau navigasi kebawah untuk lihat versi Text
 
 <!-- section 8 -->
 
+# ditaa
+
+``` {.render_ditaa args="--transparent --scale 1 --font 'Raleway'"}
++-----------------------------+
+| Node A                      |
+|                             |
+| +----------+   +----------+ |
+| |          |   |          | |
+| | Frontend |   | Foo      | |
+| |          |   |          | |
+| |          |   | {s}      | |
+| +-----+----+   +----------+ |
+|       ^                     |
+|       |                     |
+|       \-service-\           |
+|                 |           |
++-----------------|-----------+
+                  |
+```
+
+<!-- section 9 -->
+
+# ditaa
+
+``` {.render_ditaa args="--transparent --scale 1 --font 'Raleway'"}
+  ROOT      
+  |
+  +--foo
+  |  +----bar
+  |  
+  +--baz   
+  +--bax   
+  +--src   
+  |  +--main
+  |  |  +---java
+  |  |  |   +---something
+  |  |  |
+  |  |  +---fine
+  |  |
+  |  +--yes
+  |  +--no
+```
+
+<!-- section 10 -->
+
 # Mengenal Component Ionic
 
 ## 
@@ -409,7 +454,7 @@ Atau navigasi kebawah untuk lihat versi Text
 ```
 Atau navigasi kebawah untuk lihat versi Text
 
-<!-- section 9 -->
+<!-- section 11 -->
 
 # Mengenal Grid dan tampilan Responsive
 
