@@ -5,7 +5,7 @@
 
 Atau navigasi kebawah untuk lihat versi Text
 
-# ditaa
+##
 
 ```{.render_ditaa args="--transparent --scale 1 --font 'Raleway'"}
 +-----------------------------+
@@ -25,7 +25,7 @@ Atau navigasi kebawah untuk lihat versi Text
                   |
 ```
 
-# ditaa
+##
 
 ```{.render_ditaa args="--transparent --scale 1 --font 'Raleway'"}
   ROOT      
@@ -44,4 +44,27 @@ Atau navigasi kebawah untuk lihat versi Text
   |  |
   |  +--yes
   |  +--no
+```
+
+##
+
+```{.render_plantuml args="-Sbackgroundcolor=transparent -SdefaultFontSize=24 -SdefaultFontName=Raleway"}
+@startsalt
+{
+{T
+ + World
+ ++ America
+ +++ Canada
+ +++ USA
+ ++++ New York
+ ++++ Boston
+ +++ Mexico
+ ++ Europe
+ +++ Italy
+ +++ Germany
+ ++++ Berlin
+ ++ Africa
+}
+}
+@endsalt
 ```
