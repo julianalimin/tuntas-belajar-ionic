@@ -321,6 +321,9 @@ npm install -E -D @ionic/cli
 
 ## lalu jika ingin menjalankan cukup
 npx ionic serve
+
+## atau gunakan script npm
+npm run start
 ```
 
 <!-- subsection 5 / 4 -->
@@ -399,50 +402,163 @@ Atau navigasi kebawah untuk lihat versi Text
 
 ## 
 
-``` {.render_ditaa args="--transparent --scale 1 --font 'Raleway'"}
-+-----------------------------+
-| Node A                      |
-|                             |
-| +----------+   +----------+ |
-| |          |   |          | |
-| | Frontend |   | Foo      | |
-| |          |   |          | |
-| |          |   | {s}      | |
-| +-----+----+   +----------+ |
-|       ^                     |
-|       |                     |
-|       \-service-\           |
-|                 |           |
-+-----------------|-----------+
-                  |
-```
+![](assets/kupas-struktur-tree.jpg)
 
 <!-- subsection 7 / 2 -->
 
-## 
+## package.json
 
-``` {.render_ditaa args="--transparent --scale 1 --font 'Raleway'"}
-  ROOT      
-  |
-  +--foo
-  |  +----bar
-  |  
-  +--baz   
-  +--bax   
-  +--src   
-  |  +--main
-  |  |  +---java
-  |  |  |   +---something
-  |  |  |
-  |  |  +---fine
-  |  |
-  |  +--yes
-  |  +--no
-```
+Dikarenakan ini project Nodejs maka sudah pasti ada file `package.json` dan `package-lock.json` untuk mengatur daftar scripts dan dependencies dari npm yang perlu diinstall untuk menjalankan project ionic kita.
 
 <!-- subsection 7 / 3 -->
 
-## 
+## Apa yang terjadi saat project di Run?
+
+Dikarenakan kita menggunakan Angular para Project ini, maka saat memanggil script untuk menserve dia sebetulnya menjalankan perintah angular. Dimana Angular akan mengcompile dan membuat beberapa chunk dan menjalankan sebuah Web Server di localhost untuk melihat hasilnya di Browser.
+
+<!-- subsection 7 / 4 -->
+
+## tslint.json
+
+Berisi rules linting dari Typescript.
+
+<!-- subsection 7 / 5 -->
+
+## tsconfig.json
+
+Ini adalah configurasi dari typescript compiler kita. Contoh setupnya seperti apa target bahasanya misalnya es2015, informasi kemana hasil compiling akan diletakkan dan lainnya.
+
+<!-- subsection 7 / 6 -->
+
+## karma.conf.json
+
+Ini configurasi Karma runner yang digunakan saat melakukan Unit Testing dengan Karma.
+
+<!-- subsection 7 / 7 -->
+
+## ionic.config.json
+
+Digunakan untuk setup Ionicnya. Jika kita menggunakan beberapa fitur Ionic di Cloud (App flow) maka configurasinya akan diletakkan disini juga.
+
+<!-- subsection 7 / 8 -->
+
+## browserslist
+
+Untuk mencatat daftar target browser saat Angular membuild Project ini.
+
+<!-- subsection 7 / 9 -->
+
+## angular.json
+
+Configurasi Angular dari mulai nama Project, jenis-jenis isi di Projectnya, dll.
+
+<!-- subsection 7 / 10 -->
+
+## .gitignore
+
+Untuk configurasi file-file apa yang tidak perlu masuk ke Git. Dari Ionic sudah dibantu dengan isian dari default template mereka seperti node\_modules dan build folder tidak usah masuk Git.
+
+<!-- subsection 7 / 11 -->
+
+## Folder e2e
+
+Digunakan untuk seluruh Configurasi dan Script End-To-End Test. Lebih detil nanti
+
+<!-- subsection 7 / 12 -->
+
+## Folder node\_modules
+
+Seluruh dependency dari package.json didownload dan di build disini. Folder ini besar dan sengaja tidak dimasukkan ke Git.
+
+<!-- subsection 7 / 13 -->
+
+## Folder src
+
+Berisi seluruh coding aplikasi kita. Disinilah sebagian besar development terjadi.
+
+<!-- subsection 7 / 14 -->
+
+## src/zone-flags.ts
+
+File ini untuk mengatur change detection pada aplikasi Angular
+
+<!-- subsection 7 / 15 -->
+
+## src/test.ts
+
+File Test untuk Unit Testing. Ini yang akan dijalankan oleh Karma nanti.
+
+<!-- subsection 7 / 16 -->
+
+## src/pollyfills.ts
+
+Agar aplikasi kita dapat tetap berjalan pada jenis browser-browser yang lama maka file ini akan mengakali beberapa library agar tetap bisa digunakan. Tapi tetap saran saya sih user agar menggunakan browser jenis terbaru.
+
+<!-- subsection 7 / 17 -->
+
+## src/main.ts
+
+Ini adalah file root dari Angular yang akan meenjalankan seluruh aplikasi Angularnya.
+
+<!-- subsection 7 / 18 -->
+
+## src/index.html
+
+Ini adalah file pertama yang akan dijalankan oleh Browser. Dan Angular akan menginject diri ke file ini sehingga aplikasinya bisa berjalan.
+
+<!-- subsection 7 / 19 -->
+
+## src/global.scss
+
+File ini mengatur styling css dari seluruh aplikasi. Jika ada library external yang mau dimasukkan secara global maka pastinya perlu dimasukkan kesini.
+
+<!-- subsection 7 / 20 -->
+
+## src/theme/variable.scss
+
+Variabel untuk mengcustomisasi styling biasanya diletakkan disini.
+
+<!-- subsection 7 / 21 -->
+
+## src/environments
+
+File-file disini digunakan untuk setting/parameter tambahan saat menjalankan Angular. Biasanya digunakan untuk membedakan url server production dan development atau flag-flag lainnya.
+
+<!-- subsection 7 / 22 -->
+
+## src/assets
+
+File-file seperti gambar, fonts, json, file untuk bahasa dan dokument diletakkan disini karena tidak perlu dicompile dan hanya dipanggil saja.
+
+<!-- subsection 7 / 23 -->
+
+## src/app/app.module.ts
+
+File main.ts akan memanggil file ini untuk memulai menginisasi module-module yang akan digunakan. Lalu apakah entry component (komponen pertama yang akan dipanggil) juga di konfigurasi disini.
+
+<!-- subsection 7 / 24 -->
+
+## src/app/app.component.ts
+
+Ini umumnya adalah Komponen pertama yang dipanggil. Sehingga biasanya script-script inisiasi Aplikasi ada disini.
+
+<!-- subsection 7 / 25 -->
+
+## Template Component
+
+Umumnya sebuah komponen akan menampilkan html. Ini disebut template. Template dapat ditulisan di dalam file .ts si Komponen atau menggunakan templateUrl diarahkan ke file html yang akan menjadi templatenya.
+
+<!-- subsection 7 / 26 -->
+
+## Styling component
+
+Setiap komponent jika memerlukan Styling maka dapat ditambahkan inlince styling atau styleurls. Dengan beitu sebuah file css/scss terpisah akan dipanggil untuk membantu styling.
+
+<!-- subsection 7 / 27 -->
+
+## Routing Module
+
+Jika Aplikasi kita memiliki banyak page maka setiap Page perlu diarahkan ke URL pada Browser. Ini dilakukan di Routing Module. Setiap Module dapat memiliki Routing Module jadi setiap Module dapat bekerja secara autonom.
 
 ``` {.render_plantuml args="-Sbackgroundcolor=transparent -SdefaultFontSize=24 -SdefaultFontName=Raleway"}
 @startsalt
@@ -487,6 +603,20 @@ Atau navigasi kebawah untuk lihat versi Text
 
 ```{=html}
 <iframe src="https://www.youtube.com/embed/gmkjGkoNBKM">
+```
+```{=html}
+</iframe>
+```
+Atau navigasi kebawah untuk lihat versi Text
+
+<!-- section 10 -->
+
+# Mengenal Service dan ambil data dengan HttpClient
+
+## 
+
+```{=html}
+<iframe src="https://www.youtube.com/embed/NR9LrwTOXYo">
 ```
 ```{=html}
 </iframe>

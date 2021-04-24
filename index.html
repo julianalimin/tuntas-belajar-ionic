@@ -290,7 +290,10 @@ npx -p @ionic/cli ionic start myApp tabs</code></pre>
 npm install -E -D @ionic/cli
 
 ## lalu jika ingin menjalankan cukup
-npx ionic serve</code></pre>
+npx ionic serve
+
+## atau gunakan script npm
+npm run start</code></pre>
 </section>
 <section id="struktur-project" class="level2">
 <h2>Struktur Project</h2>
@@ -341,18 +344,111 @@ npx ionic serve</code></pre>
 </section>
 <section id="section-19" class="level2">
 <h2></h2>
-<div class="rendered render_ditaa">
-<p><img src="rendered/render_ditaa-6447165a8dc765c94caaa32b19a34563ed555032.png" alt="" /></p>
-</div>
+<p><img src="assets/kupas-struktur-tree.jpg" /></p>
 </section>
-<section id="section-20" class="level2">
-<h2></h2>
-<div class="rendered render_ditaa">
-<p><img src="rendered/render_ditaa-bd749d23e4b74a2f5723e587cadc069a9114db99.png" alt="" /></p>
-</div>
+<section id="package.json" class="level2">
+<h2>package.json</h2>
+<p>Dikarenakan ini project Nodejs maka sudah pasti ada file <code>package.json</code> dan <code>package-lock.json</code> untuk mengatur daftar scripts dan dependencies dari npm yang perlu diinstall untuk menjalankan project ionic kita.</p>
 </section>
-<section id="section-21" class="level2">
-<h2></h2>
+<section id="apa-yang-terjadi-saat-project-di-run" class="level2">
+<h2>Apa yang terjadi saat project di Run?</h2>
+<p>Dikarenakan kita menggunakan Angular para Project ini, maka saat memanggil script untuk menserve dia sebetulnya menjalankan perintah angular. Dimana Angular akan mengcompile dan membuat beberapa chunk dan menjalankan sebuah Web Server di localhost untuk melihat hasilnya di Browser.</p>
+</section>
+<section id="tslint.json" class="level2">
+<h2>tslint.json</h2>
+<p>Berisi rules linting dari Typescript.</p>
+</section>
+<section id="tsconfig.json" class="level2">
+<h2>tsconfig.json</h2>
+<p>Ini adalah configurasi dari typescript compiler kita. Contoh setupnya seperti apa target bahasanya misalnya es2015, informasi kemana hasil compiling akan diletakkan dan lainnya.</p>
+</section>
+<section id="karma.conf.json" class="level2">
+<h2>karma.conf.json</h2>
+<p>Ini configurasi Karma runner yang digunakan saat melakukan Unit Testing dengan Karma.</p>
+</section>
+<section id="ionic.config.json" class="level2">
+<h2>ionic.config.json</h2>
+<p>Digunakan untuk setup Ionicnya. Jika kita menggunakan beberapa fitur Ionic di Cloud (App flow) maka configurasinya akan diletakkan disini juga.</p>
+</section>
+<section id="browserslist" class="level2">
+<h2>browserslist</h2>
+<p>Untuk mencatat daftar target browser saat Angular membuild Project ini.</p>
+</section>
+<section id="angular.json" class="level2">
+<h2>angular.json</h2>
+<p>Configurasi Angular dari mulai nama Project, jenis-jenis isi di Projectnya, dll.</p>
+</section>
+<section id="gitignore" class="level2">
+<h2>.gitignore</h2>
+<p>Untuk configurasi file-file apa yang tidak perlu masuk ke Git. Dari Ionic sudah dibantu dengan isian dari default template mereka seperti node_modules dan build folder tidak usah masuk Git.</p>
+</section>
+<section id="folder-e2e" class="level2">
+<h2>Folder e2e</h2>
+<p>Digunakan untuk seluruh Configurasi dan Script End-To-End Test. Lebih detil nanti</p>
+</section>
+<section id="folder-node_modules" class="level2">
+<h2>Folder node_modules</h2>
+<p>Seluruh dependency dari package.json didownload dan di build disini. Folder ini besar dan sengaja tidak dimasukkan ke Git.</p>
+</section>
+<section id="folder-src" class="level2">
+<h2>Folder src</h2>
+<p>Berisi seluruh coding aplikasi kita. Disinilah sebagian besar development terjadi.</p>
+</section>
+<section id="srczone-flags.ts" class="level2">
+<h2>src/zone-flags.ts</h2>
+<p>File ini untuk mengatur change detection pada aplikasi Angular</p>
+</section>
+<section id="srctest.ts" class="level2">
+<h2>src/test.ts</h2>
+<p>File Test untuk Unit Testing. Ini yang akan dijalankan oleh Karma nanti.</p>
+</section>
+<section id="srcpollyfills.ts" class="level2">
+<h2>src/pollyfills.ts</h2>
+<p>Agar aplikasi kita dapat tetap berjalan pada jenis browser-browser yang lama maka file ini akan mengakali beberapa library agar tetap bisa digunakan. Tapi tetap saran saya sih user agar menggunakan browser jenis terbaru.</p>
+</section>
+<section id="srcmain.ts" class="level2">
+<h2>src/main.ts</h2>
+<p>Ini adalah file root dari Angular yang akan meenjalankan seluruh aplikasi Angularnya.</p>
+</section>
+<section id="srcindex.html" class="level2">
+<h2>src/index.html</h2>
+<p>Ini adalah file pertama yang akan dijalankan oleh Browser. Dan Angular akan menginject diri ke file ini sehingga aplikasinya bisa berjalan.</p>
+</section>
+<section id="srcglobal.scss" class="level2">
+<h2>src/global.scss</h2>
+<p>File ini mengatur styling css dari seluruh aplikasi. Jika ada library external yang mau dimasukkan secara global maka pastinya perlu dimasukkan kesini.</p>
+</section>
+<section id="srcthemevariable.scss" class="level2">
+<h2>src/theme/variable.scss</h2>
+<p>Variabel untuk mengcustomisasi styling biasanya diletakkan disini.</p>
+</section>
+<section id="srcenvironments" class="level2">
+<h2>src/environments</h2>
+<p>File-file disini digunakan untuk setting/parameter tambahan saat menjalankan Angular. Biasanya digunakan untuk membedakan url server production dan development atau flag-flag lainnya.</p>
+</section>
+<section id="srcassets" class="level2">
+<h2>src/assets</h2>
+<p>File-file seperti gambar, fonts, json, file untuk bahasa dan dokument diletakkan disini karena tidak perlu dicompile dan hanya dipanggil saja.</p>
+</section>
+<section id="srcappapp.module.ts" class="level2">
+<h2>src/app/app.module.ts</h2>
+<p>File main.ts akan memanggil file ini untuk memulai menginisasi module-module yang akan digunakan. Lalu apakah entry component (komponen pertama yang akan dipanggil) juga di konfigurasi disini.</p>
+</section>
+<section id="srcappapp.component.ts" class="level2">
+<h2>src/app/app.component.ts</h2>
+<p>Ini umumnya adalah Komponen pertama yang dipanggil. Sehingga biasanya script-script inisiasi Aplikasi ada disini.</p>
+</section>
+<section id="template-component" class="level2">
+<h2>Template Component</h2>
+<p>Umumnya sebuah komponen akan menampilkan html. Ini disebut template. Template dapat ditulisan di dalam file .ts si Komponen atau menggunakan templateUrl diarahkan ke file html yang akan menjadi templatenya.</p>
+</section>
+<section id="styling-component" class="level2">
+<h2>Styling component</h2>
+<p>Setiap komponent jika memerlukan Styling maka dapat ditambahkan inlince styling atau styleurls. Dengan beitu sebuah file css/scss terpisah akan dipanggil untuk membantu styling.</p>
+</section>
+<section id="routing-module" class="level2">
+<h2>Routing Module</h2>
+<p>Jika Aplikasi kita memiliki banyak page maka setiap Page perlu diarahkan ke URL pada Browser. Ini dilakukan di Routing Module. Setiap Module dapat memiliki Routing Module jadi setiap Module dapat bekerja secara autonom.</p>
 <div class="rendered render_plantuml">
 <p><?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="180px" preserveAspectRatio="none" style="width:107px;height:180px;background:#00000000;" version="1.1" viewBox="0 0 107 180" width="107px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="16" y="17.2801">World</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="47" x="26" y="31.3682">America</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="36" y="45.4563">Canada</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="36" y="59.5444">USA</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="46" y="73.6325">New York</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="46" y="87.7206">Boston</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="41" x="36" y="101.8087">Mexico</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="26" y="115.8968">Europe</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="24" x="36" y="129.9849">Italy</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="52" x="36" y="144.073">Germany</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32" x="46" y="158.1611">Berlin</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33" x="26" y="172.2492">Africa</text><rect fill="none" height="2" style="stroke:#888888;stroke-width:1.0;" width="2" x="9" y="12.044"/><rect fill="none" height="2" style="stroke:#888888;stroke-width:1.0;" width="2" x="19" y="26.1321"/><line style="stroke:#888888;stroke-width:1.0;" x1="10" x2="10" y1="15.044" y2="27.1321"/><line style="stroke:#888888;stroke-width:1.0;" x1="10" x2="18" y1="27.1321" y2="27.1321"/><line style="stroke:#888888;stroke-width:1.0;" x1="20" x2="20" y1="29.1321" y2="41.2202"/><line style="stroke:#888888;stroke-width:1.0;" x1="20" x2="28" y1="41.2202" y2="41.2202"/><rect fill="none" height="2" style="stroke:#888888;stroke-width:1.0;" width="2" x="29" y="54.3083"/><line style="stroke:#888888;stroke-width:1.0;" x1="20" x2="20" y1="29.1321" y2="55.3083"/><line style="stroke:#888888;stroke-width:1.0;" x1="20" x2="28" y1="55.3083" y2="55.3083"/><line style="stroke:#888888;stroke-width:1.0;" x1="30" x2="30" y1="57.3083" y2="69.3964"/><line style="stroke:#888888;stroke-width:1.0;" x1="30" x2="38" y1="69.3964" y2="69.3964"/><line style="stroke:#888888;stroke-width:1.0;" x1="30" x2="30" y1="57.3083" y2="83.4845"/><line style="stroke:#888888;stroke-width:1.0;" x1="30" x2="38" y1="83.4845" y2="83.4845"/><line style="stroke:#888888;stroke-width:1.0;" x1="20" x2="20" y1="29.1321" y2="97.5726"/><line style="stroke:#888888;stroke-width:1.0;" x1="20" x2="28" y1="97.5726" y2="97.5726"/><rect fill="none" height="2" style="stroke:#888888;stroke-width:1.0;" width="2" x="19" y="110.6607"/><line style="stroke:#888888;stroke-width:1.0;" x1="10" x2="10" y1="15.044" y2="111.6607"/><line style="stroke:#888888;stroke-width:1.0;" x1="10" x2="18" y1="111.6607" y2="111.6607"/><line style="stroke:#888888;stroke-width:1.0;" x1="20" x2="20" y1="113.6607" y2="125.7488"/><line style="stroke:#888888;stroke-width:1.0;" x1="20" x2="28" y1="125.7488" y2="125.7488"/><rect fill="none" height="2" style="stroke:#888888;stroke-width:1.0;" width="2" x="29" y="138.8369"/><line style="stroke:#888888;stroke-width:1.0;" x1="20" x2="20" y1="113.6607" y2="139.8369"/><line style="stroke:#888888;stroke-width:1.0;" x1="20" x2="28" y1="139.8369" y2="139.8369"/><line style="stroke:#888888;stroke-width:1.0;" x1="30" x2="30" y1="141.8369" y2="153.925"/><line style="stroke:#888888;stroke-width:1.0;" x1="30" x2="38" y1="153.925" y2="153.925"/><line style="stroke:#888888;stroke-width:1.0;" x1="10" x2="10" y1="15.044" y2="168.0131"/><line style="stroke:#888888;stroke-width:1.0;" x1="10" x2="18" y1="168.0131" y2="168.0131"/><!--MD5=[88873b4d366ee2ab8d7f9c65ef29c90f]
 @startsalt
@@ -391,7 +487,7 @@ Country: US
 </section>
 <section id="mengenal-component-ionic" class="level1">
 <h1>Mengenal Component Ionic</h1>
-<section id="section-22" class="level2">
+<section id="section-20" class="level2">
 <h2></h2>
 <iframe src="https://www.youtube.com/embed/51Fybo0F3oQ">
 </iframe>
@@ -400,9 +496,18 @@ Country: US
 </section>
 <section id="mengenal-grid-dan-tampilan-responsive" class="level1">
 <h1>Mengenal Grid dan tampilan Responsive</h1>
-<section id="section-23" class="level2">
+<section id="section-21" class="level2">
 <h2></h2>
 <iframe src="https://www.youtube.com/embed/gmkjGkoNBKM">
+</iframe>
+<p>Atau navigasi kebawah untuk lihat versi Text</p>
+</section>
+</section>
+<section id="mengenal-service-dan-ambil-data-dengan-httpclient" class="level1">
+<h1>Mengenal Service dan ambil data dengan HttpClient</h1>
+<section id="section-22" class="level2">
+<h2></h2>
+<iframe src="https://www.youtube.com/embed/NR9LrwTOXYo">
 </iframe>
 <p>Atau navigasi kebawah untuk lihat versi Text</p>
 </section>
