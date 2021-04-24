@@ -395,9 +395,9 @@ Pekerjaan perlu di pecah menjadi beberapa bagian. Biasanya saya menggunakan Trel
 ```
 Atau navigasi kebawah untuk lihat versi Text
 
-<!-- section 8 -->
+<!-- subsection 7 / 1 -->
 
-# ditaa
+## 
 
 ``` {.render_ditaa args="--transparent --scale 1 --font 'Raleway'"}
 +-----------------------------+
@@ -417,9 +417,9 @@ Atau navigasi kebawah untuk lihat versi Text
                   |
 ```
 
-<!-- section 9 -->
+<!-- subsection 7 / 2 -->
 
-# ditaa
+## 
 
 ``` {.render_ditaa args="--transparent --scale 1 --font 'Raleway'"}
   ROOT      
@@ -440,7 +440,32 @@ Atau navigasi kebawah untuk lihat versi Text
   |  +--no
 ```
 
-<!-- section 10 -->
+<!-- subsection 7 / 3 -->
+
+## 
+
+``` {.render_plantuml args="-Sbackgroundcolor=transparent -SdefaultFontSize=24 -SdefaultFontName=Raleway"}
+@startsalt
+{
+{T
+ + World
+ ++ America
+ +++ Canada
+ +++ USA
+ ++++ New York
+ ++++ Boston
+ +++ Mexico
+ ++ Europe
+ +++ Italy
+ +++ Germany
+ ++++ Berlin
+ ++ Africa
+}
+}
+@endsalt
+```
+
+<!-- section 8 -->
 
 # Mengenal Component Ionic
 
@@ -454,7 +479,7 @@ Atau navigasi kebawah untuk lihat versi Text
 ```
 Atau navigasi kebawah untuk lihat versi Text
 
-<!-- section 11 -->
+<!-- section 9 -->
 
 # Mengenal Grid dan tampilan Responsive
 
