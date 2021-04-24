@@ -19,6 +19,10 @@
   max-height: 100%;
   box-sizing: border-box; }
 
+.reveal .r-fit-text {
+  display: inline-block;
+  white-space: nowrap; }
+
 .reveal .r-stack {
   display: grid; }
 
@@ -29,6 +33,12 @@
 .reveal .r-vstack,
 .reveal .r-hstack {
   display: flex; }
+  .reveal .r-vstack img, .reveal .r-vstack video,
+  .reveal .r-hstack img,
+  .reveal .r-hstack video {
+    min-width: 0;
+    min-height: 0;
+    object-fit: contain; }
 
 .reveal .r-vstack {
   flex-direction: column;
@@ -367,16 +377,16 @@ html.reveal-full-page {
   opacity: 0;
   visibility: hidden; }
 
-.reveal[data-navigation-mode="linear"].has-horizontal-slides .navigate-up,
-.reveal[data-navigation-mode="linear"].has-horizontal-slides .navigate-down {
+.reveal.has-horizontal-slides[data-navigation-mode="linear"] .navigate-up,
+.reveal.has-horizontal-slides[data-navigation-mode="linear"] .navigate-down {
   display: none; }
 
-.reveal[data-navigation-mode="linear"].has-horizontal-slides .navigate-left,
+.reveal.has-horizontal-slides[data-navigation-mode="linear"] .navigate-left,
 .reveal:not(.has-vertical-slides) .controls .navigate-left {
   bottom: 1.4em;
   right: 5.5em; }
 
-.reveal[data-navigation-mode="linear"].has-horizontal-slides .navigate-right,
+.reveal.has-horizontal-slides[data-navigation-mode="linear"] .navigate-right,
 .reveal:not(.has-vertical-slides) .controls .navigate-right {
   bottom: 1.4em;
   right: 0.5em; }
@@ -522,7 +532,6 @@ html.reveal-full-page {
   display: none;
   position: absolute;
   width: 100%;
-  padding: 20px 0px;
   pointer-events: auto;
   z-index: 10;
   transform-style: flat;
@@ -590,126 +599,126 @@ html.reveal-full-page {
 .reveal.slide section {
   backface-visibility: hidden; }
 
-.reveal .slides > section[data-transition=slide].past,
-.reveal .slides > section[data-transition~=slide-out].past,
-.reveal.slide .slides > section:not([data-transition]).past {
+.reveal .slides > section.past[data-transition=slide],
+.reveal .slides > section.past[data-transition~=slide-out],
+.reveal.slide .slides > section.past:not([data-transition]) {
   transform: translate(-150%, 0); }
 
-.reveal .slides > section[data-transition=slide].future,
-.reveal .slides > section[data-transition~=slide-in].future,
-.reveal.slide .slides > section:not([data-transition]).future {
+.reveal .slides > section.future[data-transition=slide],
+.reveal .slides > section.future[data-transition~=slide-in],
+.reveal.slide .slides > section.future:not([data-transition]) {
   transform: translate(150%, 0); }
 
-.reveal .slides > section > section[data-transition=slide].past,
-.reveal .slides > section > section[data-transition~=slide-out].past,
-.reveal.slide .slides > section > section:not([data-transition]).past {
+.reveal .slides > section > section.past[data-transition=slide],
+.reveal .slides > section > section.past[data-transition~=slide-out],
+.reveal.slide .slides > section > section.past:not([data-transition]) {
   transform: translate(0, -150%); }
 
-.reveal .slides > section > section[data-transition=slide].future,
-.reveal .slides > section > section[data-transition~=slide-in].future,
-.reveal.slide .slides > section > section:not([data-transition]).future {
+.reveal .slides > section > section.future[data-transition=slide],
+.reveal .slides > section > section.future[data-transition~=slide-in],
+.reveal.slide .slides > section > section.future:not([data-transition]) {
   transform: translate(0, 150%); }
 
 .reveal.linear section {
   backface-visibility: hidden; }
 
-.reveal .slides > section[data-transition=linear].past,
-.reveal .slides > section[data-transition~=linear-out].past,
-.reveal.linear .slides > section:not([data-transition]).past {
+.reveal .slides > section.past[data-transition=linear],
+.reveal .slides > section.past[data-transition~=linear-out],
+.reveal.linear .slides > section.past:not([data-transition]) {
   transform: translate(-150%, 0); }
 
-.reveal .slides > section[data-transition=linear].future,
-.reveal .slides > section[data-transition~=linear-in].future,
-.reveal.linear .slides > section:not([data-transition]).future {
+.reveal .slides > section.future[data-transition=linear],
+.reveal .slides > section.future[data-transition~=linear-in],
+.reveal.linear .slides > section.future:not([data-transition]) {
   transform: translate(150%, 0); }
 
-.reveal .slides > section > section[data-transition=linear].past,
-.reveal .slides > section > section[data-transition~=linear-out].past,
-.reveal.linear .slides > section > section:not([data-transition]).past {
+.reveal .slides > section > section.past[data-transition=linear],
+.reveal .slides > section > section.past[data-transition~=linear-out],
+.reveal.linear .slides > section > section.past:not([data-transition]) {
   transform: translate(0, -150%); }
 
-.reveal .slides > section > section[data-transition=linear].future,
-.reveal .slides > section > section[data-transition~=linear-in].future,
-.reveal.linear .slides > section > section:not([data-transition]).future {
+.reveal .slides > section > section.future[data-transition=linear],
+.reveal .slides > section > section.future[data-transition~=linear-in],
+.reveal.linear .slides > section > section.future:not([data-transition]) {
   transform: translate(0, 150%); }
 
 /*********************************************
  * CONVEX TRANSITION
  * Aliased 'default' for backwards compatibility
  *********************************************/
-.reveal .slides section[data-transition=default].stack,
+.reveal .slides section.stack[data-transition=default],
 .reveal.default .slides section.stack {
   transform-style: preserve-3d; }
 
-.reveal .slides > section[data-transition=default].past,
-.reveal .slides > section[data-transition~=default-out].past,
-.reveal.default .slides > section:not([data-transition]).past {
+.reveal .slides > section.past[data-transition=default],
+.reveal .slides > section.past[data-transition~=default-out],
+.reveal.default .slides > section.past:not([data-transition]) {
   transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0); }
 
-.reveal .slides > section[data-transition=default].future,
-.reveal .slides > section[data-transition~=default-in].future,
-.reveal.default .slides > section:not([data-transition]).future {
+.reveal .slides > section.future[data-transition=default],
+.reveal .slides > section.future[data-transition~=default-in],
+.reveal.default .slides > section.future:not([data-transition]) {
   transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0); }
 
-.reveal .slides > section > section[data-transition=default].past,
-.reveal .slides > section > section[data-transition~=default-out].past,
-.reveal.default .slides > section > section:not([data-transition]).past {
+.reveal .slides > section > section.past[data-transition=default],
+.reveal .slides > section > section.past[data-transition~=default-out],
+.reveal.default .slides > section > section.past:not([data-transition]) {
   transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0); }
 
-.reveal .slides > section > section[data-transition=default].future,
-.reveal .slides > section > section[data-transition~=default-in].future,
-.reveal.default .slides > section > section:not([data-transition]).future {
+.reveal .slides > section > section.future[data-transition=default],
+.reveal .slides > section > section.future[data-transition~=default-in],
+.reveal.default .slides > section > section.future:not([data-transition]) {
   transform: translate3d(0, 300px, 0) rotateX(-70deg) translate3d(0, 300px, 0); }
 
-.reveal .slides section[data-transition=convex].stack,
+.reveal .slides section.stack[data-transition=convex],
 .reveal.convex .slides section.stack {
   transform-style: preserve-3d; }
 
-.reveal .slides > section[data-transition=convex].past,
-.reveal .slides > section[data-transition~=convex-out].past,
-.reveal.convex .slides > section:not([data-transition]).past {
+.reveal .slides > section.past[data-transition=convex],
+.reveal .slides > section.past[data-transition~=convex-out],
+.reveal.convex .slides > section.past:not([data-transition]) {
   transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0); }
 
-.reveal .slides > section[data-transition=convex].future,
-.reveal .slides > section[data-transition~=convex-in].future,
-.reveal.convex .slides > section:not([data-transition]).future {
+.reveal .slides > section.future[data-transition=convex],
+.reveal .slides > section.future[data-transition~=convex-in],
+.reveal.convex .slides > section.future:not([data-transition]) {
   transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0); }
 
-.reveal .slides > section > section[data-transition=convex].past,
-.reveal .slides > section > section[data-transition~=convex-out].past,
-.reveal.convex .slides > section > section:not([data-transition]).past {
+.reveal .slides > section > section.past[data-transition=convex],
+.reveal .slides > section > section.past[data-transition~=convex-out],
+.reveal.convex .slides > section > section.past:not([data-transition]) {
   transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0); }
 
-.reveal .slides > section > section[data-transition=convex].future,
-.reveal .slides > section > section[data-transition~=convex-in].future,
-.reveal.convex .slides > section > section:not([data-transition]).future {
+.reveal .slides > section > section.future[data-transition=convex],
+.reveal .slides > section > section.future[data-transition~=convex-in],
+.reveal.convex .slides > section > section.future:not([data-transition]) {
   transform: translate3d(0, 300px, 0) rotateX(-70deg) translate3d(0, 300px, 0); }
 
 /*********************************************
  * CONCAVE TRANSITION
  *********************************************/
-.reveal .slides section[data-transition=concave].stack,
+.reveal .slides section.stack[data-transition=concave],
 .reveal.concave .slides section.stack {
   transform-style: preserve-3d; }
 
-.reveal .slides > section[data-transition=concave].past,
-.reveal .slides > section[data-transition~=concave-out].past,
-.reveal.concave .slides > section:not([data-transition]).past {
+.reveal .slides > section.past[data-transition=concave],
+.reveal .slides > section.past[data-transition~=concave-out],
+.reveal.concave .slides > section.past:not([data-transition]) {
   transform: translate3d(-100%, 0, 0) rotateY(90deg) translate3d(-100%, 0, 0); }
 
-.reveal .slides > section[data-transition=concave].future,
-.reveal .slides > section[data-transition~=concave-in].future,
-.reveal.concave .slides > section:not([data-transition]).future {
+.reveal .slides > section.future[data-transition=concave],
+.reveal .slides > section.future[data-transition~=concave-in],
+.reveal.concave .slides > section.future:not([data-transition]) {
   transform: translate3d(100%, 0, 0) rotateY(-90deg) translate3d(100%, 0, 0); }
 
-.reveal .slides > section > section[data-transition=concave].past,
-.reveal .slides > section > section[data-transition~=concave-out].past,
-.reveal.concave .slides > section > section:not([data-transition]).past {
+.reveal .slides > section > section.past[data-transition=concave],
+.reveal .slides > section > section.past[data-transition~=concave-out],
+.reveal.concave .slides > section > section.past:not([data-transition]) {
   transform: translate3d(0, -80%, 0) rotateX(-70deg) translate3d(0, -80%, 0); }
 
-.reveal .slides > section > section[data-transition=concave].future,
-.reveal .slides > section > section[data-transition~=concave-in].future,
-.reveal.concave .slides > section > section:not([data-transition]).future {
+.reveal .slides > section > section.future[data-transition=concave],
+.reveal .slides > section > section.future[data-transition~=concave-in],
+.reveal.concave .slides > section > section.future:not([data-transition]) {
   transform: translate3d(0, 80%, 0) rotateX(70deg) translate3d(0, 80%, 0); }
 
 /*********************************************
@@ -719,26 +728,26 @@ html.reveal-full-page {
 .reveal.zoom .slides section:not([data-transition]) {
   transition-timing-function: ease; }
 
-.reveal .slides > section[data-transition=zoom].past,
-.reveal .slides > section[data-transition~=zoom-out].past,
-.reveal.zoom .slides > section:not([data-transition]).past {
+.reveal .slides > section.past[data-transition=zoom],
+.reveal .slides > section.past[data-transition~=zoom-out],
+.reveal.zoom .slides > section.past:not([data-transition]) {
   visibility: hidden;
   transform: scale(16); }
 
-.reveal .slides > section[data-transition=zoom].future,
-.reveal .slides > section[data-transition~=zoom-in].future,
-.reveal.zoom .slides > section:not([data-transition]).future {
+.reveal .slides > section.future[data-transition=zoom],
+.reveal .slides > section.future[data-transition~=zoom-in],
+.reveal.zoom .slides > section.future:not([data-transition]) {
   visibility: hidden;
   transform: scale(0.2); }
 
-.reveal .slides > section > section[data-transition=zoom].past,
-.reveal .slides > section > section[data-transition~=zoom-out].past,
-.reveal.zoom .slides > section > section:not([data-transition]).past {
+.reveal .slides > section > section.past[data-transition=zoom],
+.reveal .slides > section > section.past[data-transition~=zoom-out],
+.reveal.zoom .slides > section > section.past:not([data-transition]) {
   transform: scale(16); }
 
-.reveal .slides > section > section[data-transition=zoom].future,
-.reveal .slides > section > section[data-transition~=zoom-in].future,
-.reveal.zoom .slides > section > section:not([data-transition]).future {
+.reveal .slides > section > section.future[data-transition=zoom],
+.reveal .slides > section > section.future[data-transition~=zoom-in],
+.reveal.zoom .slides > section > section.future:not([data-transition]) {
   transform: scale(0.2); }
 
 /*********************************************
@@ -1371,7 +1380,7 @@ html.reveal-full-page {
 .reveal .hljs.has-highlights tr:not(.highlight-line) {
   opacity: 0.4; }
 
-.reveal .hljs:not(:first-child).fragment {
+.reveal .hljs.fragment:not(:first-child) {
   position: absolute;
   top: 0;
   left: 0;
@@ -1522,7 +1531,7 @@ html.reveal-full-page {
  * This stylesheet is used to print reveal.js
  * presentations to PDF.
  *
- * https://revealjs.revealjs.com/pdf-export/
+ * https://revealjs.com/pdf-export/
  */
 html.print-pdf {
   /* Remove any elements not needed in print. */

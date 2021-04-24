@@ -117,7 +117,7 @@ Atau navigasi kebawah untuk lihat versi Text
 
 ## Selamat Datang
 
-Tujuan Belajar Tuntas Ionic adalah sebagai salah satu pilihan untuk belajar Ionic berbahasa Indonesia.
+Tujuan Tuntas Belajar Ionic adalah sebagai salah satu pilihan untuk belajar Ionic berbahasa Indonesia.
 
 <!-- subsection 2 / 2 -->
 
@@ -163,7 +163,7 @@ Hi, nama Saya Julian Alimin
 
 ##  {#section-5 .light-on-dark bg="#123456;assets/julian-vp-engineering.jpg"}
 
-Saat ini saya menjabat sebagai VP of Engineering di GreatDay HR dimana kami membuat aplikasi HRIS Mobile First berbasis Ionic dengan jumlah pengguna harian lebih dari 200 ribu
+Saat ini saya menjabat sebagai VP of Engineering di GreatDay HR dimana kami membuat aplikasi HRIS Mobile First menggunakan Ionic dengan jumlah pengguna harian lebih dari 300 ribu
 
 <!-- subsection 3 / 2 -->
 
@@ -189,7 +189,7 @@ Dan di waktu senggang saya senang menghabiskan waktu dengan Keluarga
 
 Cukup tentang saya, mari lanjut ke Materi
 
-> Belajar Tuntas Ionic
+> Tuntas Belajar Ionic
 
 <!-- section 4 -->
 
