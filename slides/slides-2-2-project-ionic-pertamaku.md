@@ -32,7 +32,7 @@ npx -p @ionic/cli ionic serve
 
 ## atau install @ionic/cli sebagai dev dependency
 ## agar npx tidak selalu menginstall
-npm -E -D @ionic/cli
+npm install -E -D @ionic/cli
 
 ## lalu jika ingin menjalankan cukup
 npx ionic serve
