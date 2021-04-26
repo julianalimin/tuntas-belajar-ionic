@@ -12,17 +12,21 @@
 
 * [Project Ionic Pertamaku](#project-ionic-pertamaku)
 
-## Project: Tuntas Belajar App
+## Project: Tuntas Belajar App - Pengenalan Konsep
 
-Pages
-
-* [Perencanaan](#section-16)
+* [Perencanaan](#perencanaan)
 
 * [Kupas Struktur Aplikasi Ionic Angular](#kupas-struktur-aplikasi-ionic-angular)
 
 * [Mengenal Komponen Ionic](#mengenal-komponen-ionic)
 
 * [Mengenal Grid dan tampilan Responsive](#mengenal-grid-dan-tampilan-responsive)
+
+* [Mengenal Service dan ambil data dengan HttpClient](#mengenal-service-dan-ambil-data-dengan-httpclient)
+
+* Mengenal Routing (Coming Soon)
+
+## Project: Tuntas Belajar App - Pembuatan Pages
 
 * List Tutorial ala Skillshare (Coming Soon)
 
