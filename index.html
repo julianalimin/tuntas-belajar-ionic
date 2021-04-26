@@ -493,23 +493,57 @@ Country: US
 </iframe>
 <p>Atau navigasi kebawah untuk lihat versi Text</p>
 </section>
+<section id="section-21" class="level2">
+<h2></h2>
+<p>Ionic menyediakan Dokumentasi lengkap untuk semua Komponen</p>
+<p><a href="https://ionicframework.com/docs/components" target="_blank">Ionic Components</a></p>
+</section>
+<section id="section-22" class="level2">
+<h2></h2>
+<p>Setiap Komponen memiliki penjelasan, ada contoh tampilan langsung yang dan contoh implementasi kode yang bisa kita copy paste</p>
+</section>
 </section>
 <section id="mengenal-grid-dan-tampilan-responsive" class="level1">
 <h1>Mengenal Grid dan tampilan Responsive</h1>
-<section id="section-21" class="level2">
+<section id="section-23" class="level2">
 <h2></h2>
 <iframe src="https://www.youtube.com/embed/gmkjGkoNBKM">
 </iframe>
 <p>Atau navigasi kebawah untuk lihat versi Text</p>
 </section>
+<section id="section-24" class="level2">
+<h2></h2>
+<p>Ionic menyediakan implementasi flexbox untuk membuat layout</p>
+<p><a href="https://ionicframework.com/docs/api/grid" target="_blank">Ionic Components</a></p>
+</section>
 </section>
 <section id="mengenal-service-dan-ambil-data-dengan-httpclient" class="level1">
 <h1>Mengenal Service dan ambil data dengan HttpClient</h1>
-<section id="section-22" class="level2">
+<section id="section-25" class="level2">
 <h2></h2>
 <iframe src="https://www.youtube.com/embed/NR9LrwTOXYo">
 </iframe>
 <p>Atau navigasi kebawah untuk lihat versi Text</p>
+</section>
+<section id="section-26" class="level2">
+<h2></h2>
+<p>Karena kita masih ingin Fokus ke Aplikasi kita sendiri tanpa memerlukan Server maka untuk Sumber data akan kita letakkan di file JSON di Folder Assets.</p>
+</section>
+<section id="section-27" class="level2">
+<h2></h2>
+<p>Kita akan menggunakan Angular HttpClient untuk membaca JSON ini dan menggunakan Service File agar seluruh Business Logic terpisah dengan Komponen.</p>
+<pre class="shell"><code>## membuat file service
+npx ng generate service shared/api/content</code></pre>
+</section>
+<section id="section-28" class="level2">
+<h2></h2>
+<p>HttpClient digunakan untuk melakukan HTTP Request. Kembalian dari requestnya adalah observable jadi untuk mendapatkan data bisa dengan mensubscribe ke observablenya atau dengan memanfaatkan toPromise() yang tidak disarankan.</p>
+</section>
+<section id="section-29" class="level2">
+<h2></h2>
+<p>Agar dapat memaksimalkan typing dari typescript maka disarankan untuk membuat interface yang mendeskripsikan kembalian dari HTTP Request</p>
+<pre class="shell"><code>## membuat file service
+npx ng generate interface shared/api/models/kursus</code></pre>
 </section>
 </section>
 

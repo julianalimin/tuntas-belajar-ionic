@@ -595,6 +595,20 @@ Jika Aplikasi kita memiliki banyak page maka setiap Page perlu diarahkan ke URL 
 ```
 Atau navigasi kebawah untuk lihat versi Text
 
+<!-- subsection 8 / 1 -->
+
+## 
+
+Ionic menyediakan Dokumentasi lengkap untuk semua Komponen
+
+[Ionic Components](https://ionicframework.com/docs/components){target="_blank"}
+
+<!-- subsection 8 / 2 -->
+
+## 
+
+Setiap Komponen memiliki penjelasan, ada contoh tampilan langsung yang dan contoh implementasi kode yang bisa kita copy paste
+
 <!-- section 9 -->
 
 # Mengenal Grid dan tampilan Responsive
@@ -609,6 +623,14 @@ Atau navigasi kebawah untuk lihat versi Text
 ```
 Atau navigasi kebawah untuk lihat versi Text
 
+<!-- subsection 9 / 1 -->
+
+## 
+
+Ionic menyediakan implementasi flexbox untuk membuat layout
+
+[Ionic Components](https://ionicframework.com/docs/api/grid){target="_blank"}
+
 <!-- section 10 -->
 
 # Mengenal Service dan ambil data dengan HttpClient
@@ -622,3 +644,37 @@ Atau navigasi kebawah untuk lihat versi Text
 </iframe>
 ```
 Atau navigasi kebawah untuk lihat versi Text
+
+<!-- subsection 10 / 1 -->
+
+## 
+
+Karena kita masih ingin Fokus ke Aplikasi kita sendiri tanpa memerlukan Server maka untuk Sumber data akan kita letakkan di file JSON di Folder Assets.
+
+<!-- subsection 10 / 2 -->
+
+## 
+
+Kita akan menggunakan Angular HttpClient untuk membaca JSON ini dan menggunakan Service File agar seluruh Business Logic terpisah dengan Komponen.
+
+``` {.shell}
+## membuat file service
+npx ng generate service shared/api/content
+```
+
+<!-- subsection 10 / 3 -->
+
+## 
+
+HttpClient digunakan untuk melakukan HTTP Request. Kembalian dari requestnya adalah observable jadi untuk mendapatkan data bisa dengan mensubscribe ke observablenya atau dengan memanfaatkan toPromise() yang tidak disarankan.
+
+<!-- subsection 10 / 4 -->
+
+## 
+
+Agar dapat memaksimalkan typing dari typescript maka disarankan untuk membuat interface yang mendeskripsikan kembalian dari HTTP Request
+
+``` {.shell}
+## membuat file service
+npx ng generate interface shared/api/models/kursus
+```
