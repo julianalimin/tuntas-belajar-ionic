@@ -37,17 +37,23 @@ Cari saya di link-link berikut
 
 <!-- subsection 1 / 2 -->
 
-## Project: Tuntas Belajar App
+## Project: Tuntas Belajar App - Pengenalan Konsep
 
-Pages
-
--   [Perencanaan](#section-16)
+-   [Perencanaan](#perencanaan)
 
 -   [Kupas Struktur Aplikasi Ionic Angular](#kupas-struktur-aplikasi-ionic-angular)
 
 -   [Mengenal Komponen Ionic](#mengenal-komponen-ionic)
 
 -   [Mengenal Grid dan tampilan Responsive](#mengenal-grid-dan-tampilan-responsive)
+
+-   [Mengenal Service dan ambil data dengan HttpClient](#mengenal-service-dan-ambil-data-dengan-httpclient)
+
+-   Mengenal Routing (Coming Soon)
+
+<!-- subsection 1 / 3 -->
+
+## Project: Tuntas Belajar App - Pembuatan Pages
 
 -   List Tutorial ala Skillshare (Coming Soon)
 
@@ -59,7 +65,7 @@ Pages
 
 -   Contact Me (Coming Soon)
 
-<!-- subsection 1 / 3 -->
+<!-- subsection 1 / 4 -->
 
 ## Project: Tuntas Belajar App
 
@@ -71,7 +77,7 @@ Advanced
 
 -   Push Notification (Coming Soon)
 
-<!-- subsection 1 / 4 -->
+<!-- subsection 1 / 5 -->
 
 ## Upload Aplikasi untuk Publik
 
@@ -85,7 +91,7 @@ Advanced
 
 -   Upload ke Huawei App Gallery (Coming Soon)
 
-<!-- subsection 1 / 5 -->
+<!-- subsection 1 / 6 -->
 
 ## Qualitas Aplikasi dan Coding
 
