@@ -566,27 +566,6 @@ Setiap komponent jika memerlukan Styling maka dapat ditambahkan inlince styling 
 
 Jika Aplikasi kita memiliki banyak page maka setiap Page perlu diarahkan ke URL pada Browser. Ini dilakukan di Routing Module. Setiap Module dapat memiliki Routing Module jadi setiap Module dapat bekerja secara autonom.
 
-``` {.render_plantuml args="-Sbackgroundcolor=transparent -SdefaultFontSize=24 -SdefaultFontName=Raleway"}
-@startsalt
-{
-{T
- + World
- ++ America
- +++ Canada
- +++ USA
- ++++ New York
- ++++ Boston
- +++ Mexico
- ++ Europe
- +++ Italy
- +++ Germany
- ++++ Berlin
- ++ Africa
-}
-}
-@endsalt
-```
-
 <!-- section 8 -->
 
 # Mengenal Component Ionic
