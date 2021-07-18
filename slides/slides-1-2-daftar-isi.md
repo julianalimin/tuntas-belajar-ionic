@@ -24,7 +24,7 @@
 
 * [Mengenal Service dan ambil data dengan HttpClient](#mengenal-service-dan-ambil-data-dengan-httpclient)
 
-* Mengenal Routing (Coming Soon)
+* [Mengenal Routing](#mengenal-routing)
 
 ## Project: Tuntas Belajar App - Pembuatan Pages
 
