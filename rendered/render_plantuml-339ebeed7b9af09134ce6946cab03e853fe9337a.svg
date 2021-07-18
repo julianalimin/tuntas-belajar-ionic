@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="349px" preserveAspectRatio="none" style="width:898px;height:349px;background:#00000000;" version="1.1" viewBox="0 0 898 349" width="898px" zoomAndPan="magnify"><defs><filter height="300%" id="f131suik2rem03" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c83af40a2e562aea7bedd6b0dbd122e8]
+cluster AppModule--><polygon filter="url(#f131suik2rem03)" points="16,8.116,162,8.116,169,42.2919,881,42.2919,881,342.616,16,342.616,16,8.116" style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="16" x2="169" y1="42.2919" y2="42.2919"/><text fill="#000000" font-family="Raleway" font-size="24" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="20" y="32.6759">AppModule</text><!--MD5=[f9603faa660d7179857c36429783e1be]
+cluster App Routing Module--><polygon filter="url(#f131suik2rem03)" points="594,63.116,847,63.116,854,97.2919,857,97.2919,857,208.116,594,208.116,594,63.116" style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="594" x2="854" y1="97.2919" y2="97.2919"/><text fill="#000000" font-family="Raleway" font-size="24" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="247" x="598" y="87.6759">App Routing Module</text><!--MD5=[df2bed7f92c71626a0b31269ff497796]
+entity AppComponent--><rect fill="#FEFECE" filter="url(#f131suik2rem03)" height="114.5278" style="stroke:#A80036;stroke-width:1.5;" width="545" x="32.5" y="93.616"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="557.5" y="98.616"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="555.5" y="100.616"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="555.5" y="104.616"/><text fill="#000000" font-family="Raleway" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="177" x="47.5" y="136.1759">AppComponent</text><text fill="#000000" font-family="Raleway" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="210" x="47.5" y="164.3518">Coding Init Aplikasi</text><text fill="#000000" font-family="Raleway" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="505" x="47.5" y="192.5278">HTML &lt;ion-router-outlet&gt;&lt;/ion-router-outlet&gt;</text><!--MD5=[a2fb03ae59ba43862f60ad6f8030b8db]
+entity MasterDataComponent--><rect fill="#FEFECE" filter="url(#f131suik2rem03)" height="58.1759" style="stroke:#A80036;stroke-width:1.5;" width="298" x="246" y="268.616"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="524" y="273.616"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="522" y="275.616"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="522" y="279.616"/><text fill="#000000" font-family="Raleway" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="258" x="261" y="311.1759">MasterDataComponent</text><!--MD5=[89961bb86873a2919f988fbd80f932cf]
+entity DetailDataComponent--><rect fill="#FEFECE" filter="url(#f131suik2rem03)" height="58.1759" style="stroke:#A80036;stroke-width:1.5;" width="286" x="579" y="268.616"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="845" y="273.616"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="843" y="275.616"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="843" y="279.616"/><text fill="#000000" font-family="Raleway" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="246" x="594" y="311.1759">DetailDataComponent</text><!--MD5=[eab4eb7d0ef44c19c3b4c8ba4c3c2b5b]
+entity root--><ellipse cx="640" cy="151.116" fill="#FEFECE" filter="url(#f131suik2rem03)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="Raleway" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="15" x="632.5" y="190.6759">/</text><!--MD5=[12f2dc17ce016cf68297451696f10ff8]
+entity detail--><ellipse cx="755" cy="151.116" fill="#FEFECE" filter="url(#f131suik2rem03)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="Raleway" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="90" x="710" y="190.6759">/:dataId</text><!--MD5=[87cf88e2c2b241eb2edf0fe106f24772]
+link root to MasterDataComponent--><path d="M638.12,160.386 C634.64,173.866 625.96,200.636 609,216.116 C584.51,238.466 553.22,254.806 522.17,266.666 " fill="none" id="root-to-MasterDataComponent" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="517.19,268.536,527.0205,269.1377,521.8746,266.7882,524.224,261.6423,517.19,268.536" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7e04b74caa4fec8eeac78842dcb248ce]
+link detail to DetailDataComponent--><path d="M753.13,160.296 C748.69,179.736 737.31,229.576 729.61,263.296 " fill="none" id="detail-to-DetailDataComponent" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="728.41,268.556,734.3111,260.6707,729.5218,263.6812,726.5114,258.8919,728.41,268.556" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5af9bcf47c656a0d15a8bd63fe06b2f5]
+@startuml
+skinparamlocked backgroundcolor transparent
+skinparamlocked backgroundcolor transparent
+skinparamlocked defaultFontSize 24
+skinparamlocked defaultFontName Raleway
+package AppModule  {
+  component AppComponent [AppComponent
+  Coding Init Aplikasi
+  HTML <ion-router-outlet></ion-router-outlet>]
+  
+  package "App Routing Module" {
+    () "/" as root
+    () "/:dataId" as detail
+  }
+
+  component MasterDataComponent
+  component DetailDataComponent
+}
+
+root - -> [MasterDataComponent]
+detail - -> [DetailDataComponent]
+@enduml
+
+PlantUML version 1.2020.23(Sun Dec 13 19:14:58 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
