@@ -721,6 +721,7 @@ Dan jika menggunakan Tabs seperti pada contoh Aplikasi yang sedang dikembangkan 
 
 ``` {.render_plantuml args="-Sbackgroundcolor=transparent -SdefaultFontSize=24 -SdefaultFontName=Raleway"}
 @startuml
+scale 1/3
 package AppModule  {
   component AppComponent [AppComponent
   Coding Init Aplikasi
@@ -750,7 +751,7 @@ package TabModule {
   
 }
 
-root --> TabModule
+root -> TabModule
 tab1 --> Tab1Component
 tab2 --> Tab2Component
 tab3 --> Tab3Component
