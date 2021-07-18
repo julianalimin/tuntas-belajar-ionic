@@ -49,7 +49,7 @@ Cari saya di link-link berikut
 
 -   [Mengenal Service dan ambil data dengan HttpClient](#mengenal-service-dan-ambil-data-dengan-httpclient)
 
--   Mengenal Routing (Coming Soon)
+-   [Mengenal Routing](#mengenal-routing)
 
 <!-- subsection 1 / 3 -->
 
@@ -654,6 +654,45 @@ npx ng generate service shared/api/content
 HttpClient digunakan untuk melakukan HTTP Request. Kembalian dari requestnya adalah observable jadi untuk mendapatkan data bisa dengan mensubscribe ke observablenya atau dengan memanfaatkan toPromise() yang tidak disarankan.
 
 <!-- subsection 10 / 4 -->
+
+## 
+
+Agar dapat memaksimalkan typing dari typescript maka disarankan untuk membuat interface yang mendeskripsikan kembalian dari HTTP Request
+
+``` {.shell}
+## membuat file service
+npx ng generate interface shared/api/models/kursus
+```
+
+<!-- section 11 -->
+
+# Mengenal Routing
+
+## 
+
+Apa jadinya jika aplikasi yang dibuat tidak memiliki Routing? Aplikasinya menjadi single view dan tidak dapat mempertahankan state navigasi saat melakukan reload browser.
+
+<!-- subsection 11 / 1 -->
+
+## 
+
+Ini adalah contoh dengan single state
+
+``` {.render_plantuml args="-Sbackgroundcolor=transparent -SdefaultFontSize=24 -SdefaultFontName=Raleway"}
+@startuml
+package "App Module" {
+  [App Component] 
+}
+@enduml
+```
+
+<!-- subsection 11 / 2 -->
+
+## 
+
+HttpClient digunakan untuk melakukan HTTP Request. Kembalian dari requestnya adalah observable jadi untuk mendapatkan data bisa dengan mensubscribe ke observablenya atau dengan memanfaatkan toPromise() yang tidak disarankan.
+
+<!-- subsection 11 / 3 -->
 
 ## 
 

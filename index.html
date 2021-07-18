@@ -83,7 +83,7 @@ Julian Alimin</p>
 <li><p><a href="#mengenal-komponen-ionic">Mengenal Komponen Ionic</a></p></li>
 <li><p><a href="#mengenal-grid-dan-tampilan-responsive">Mengenal Grid dan tampilan Responsive</a></p></li>
 <li><p><a href="#mengenal-service-dan-ambil-data-dengan-httpclient">Mengenal Service dan ambil data dengan HttpClient</a></p></li>
-<li><p>Mengenal Routing (Coming Soon)</p></li>
+<li><p><a href="#mengenal-routing">Mengenal Routing</a></p></li>
 </ul>
 </section>
 <section id="project-tuntas-belajar-app---pembuatan-pages" class="level2">
@@ -512,6 +512,50 @@ npx ng generate service shared/api/content</code></pre>
 <p>HttpClient digunakan untuk melakukan HTTP Request. Kembalian dari requestnya adalah observable jadi untuk mendapatkan data bisa dengan mensubscribe ke observablenya atau dengan memanfaatkan toPromise() yang tidak disarankan.</p>
 </section>
 <section id="section-29" class="level2">
+<h2></h2>
+<p>Agar dapat memaksimalkan typing dari typescript maka disarankan untuk membuat interface yang mendeskripsikan kembalian dari HTTP Request</p>
+<pre class="shell"><code>## membuat file service
+npx ng generate interface shared/api/models/kursus</code></pre>
+</section>
+</section>
+<section id="mengenal-routing" class="level1">
+<h1>Mengenal Routing</h1>
+<section id="section-30" class="level2">
+<h2></h2>
+<p>Apa jadinya jika aplikasi yang dibuat tidak memiliki Routing? Aplikasinya menjadi single view dan tidak dapat mempertahankan state navigasi saat melakukan reload browser.</p>
+</section>
+<section id="section-31" class="level2">
+<h2></h2>
+<p>Ini adalah contoh dengan single state</p>
+<div class="rendered render_plantuml">
+<p><?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="136px" preserveAspectRatio="none" style="width:287px;height:136px;background:#00000000;" version="1.1" viewBox="0 0 287 136" width="287px" zoomAndPan="magnify"><defs><filter height="300%" id="f1fd40hq243ucf" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[859febd98ea9147354deac3a0e5e68b1]
+cluster App Module--><polygon filter="url(#f1fd40hq243ucf)" points="16,8.116,169,8.116,176,42.2919,270,42.2919,270,129.116,16,129.116,16,8.116" style="stroke:#000000;stroke-width:1.5;fill:none;"/><line style="stroke:#000000;stroke-width:1.5;fill:none;" x1="16" x2="176" y1="42.2919" y2="42.2919"/><text fill="#000000" font-family="Raleway" font-size="24" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="20" y="32.6759">App Module</text><!--MD5=[181f294d90f9a7ed12dbc0f9d5aeb2dd]
+entity App Component--><rect fill="#FEFECE" filter="url(#f1fd40hq243ucf)" height="58.1759" style="stroke:#A80036;stroke-width:1.5;" width="223" x="31.5" y="55.116"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="234.5" y="60.116"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="232.5" y="62.116"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="232.5" y="66.116"/><text fill="#000000" font-family="Raleway" font-size="24" lengthAdjust="spacingAndGlyphs" textLength="183" x="46.5" y="97.6759">App Component</text><!--MD5=[ed1e72defce459fe35f160f91451c21a]
+@startuml
+skinparamlocked backgroundcolor transparent
+skinparamlocked backgroundcolor transparent
+skinparamlocked defaultFontSize 24
+skinparamlocked defaultFontName Raleway
+package "App Module" {
+  [App Component] 
+}
+@enduml
+
+PlantUML version 1.2020.23(Sun Dec 13 19:14:58 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg></p>
+</div>
+</section>
+<section id="section-32" class="level2">
+<h2></h2>
+<p>HttpClient digunakan untuk melakukan HTTP Request. Kembalian dari requestnya adalah observable jadi untuk mendapatkan data bisa dengan mensubscribe ke observablenya atau dengan memanfaatkan toPromise() yang tidak disarankan.</p>
+</section>
+<section id="section-33" class="level2">
 <h2></h2>
 <p>Agar dapat memaksimalkan typing dari typescript maka disarankan untuk membuat interface yang mendeskripsikan kembalian dari HTTP Request</p>
 <pre class="shell"><code>## membuat file service
